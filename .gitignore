@@ -1,0 +1,10 @@
+# Ignore all
+*
+*.jpg
+# Except the next
+!.gitignore
+!docs/
+!readme.md
+!config.toml
+!content/about
+!content/posts
