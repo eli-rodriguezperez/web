@@ -5,3 +5,4 @@ themes/
 static/
 *.log
 content/gallery/images
+.gitmodules
