@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Eli Rodríguez Pérez</title>
-    <link>eli-rodriguez.com/posts/</link>
+    <link>https://eli-rodriguezperez.github.io/web/posts/</link>
     <description>Recent content in Posts on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 17 Nov 2018 10:59:21 +0100</lastBuildDate>
     
-	<atom:link href="eli-rodriguez.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eli-rodriguezperez.github.io/web/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Post</title>
-      <link>eli-rodriguez.com/posts/test-post/</link>
+      <link>https://eli-rodriguezperez.github.io/web/posts/test-post/</link>
       <pubDate>Sat, 17 Nov 2018 10:59:21 +0100</pubDate>
       
-      <guid>eli-rodriguez.com/posts/test-post/</guid>
+      <guid>https://eli-rodriguezperez.github.io/web/posts/test-post/</guid>
       <description></description>
     </item>
     
