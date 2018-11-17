@@ -1,11 +1,7 @@
-# Ignore all
-*
-*.jpg
-# Except the next
-!.gitignore
-!docs/
-!docs/*
-!readme.md
-!config.toml
-!content/about.md
-!content/posts/*
+archetypes/
+data/
+layouts/
+themes/
+static/
+*.log
+content/gallery/images
