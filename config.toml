@@ -1,4 +1,4 @@
-baseurl                 = "www.eli-rodriguez.com/"               # Your domain name. Must end with "/"
+baseurl                 = "eli-rodriguez.com/"               # Your domain name. Must end with "/"
 languageCode            = "es-es"
 defaultContentLanguage  = "es"
 isMultilingual          = true
