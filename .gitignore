@@ -4,7 +4,8 @@
 # Except the next
 !.gitignore
 !docs/
+!docs/*
 !readme.md
 !config.toml
-!content/about
-!content/posts
+!content/about.md
+!content/posts/*
