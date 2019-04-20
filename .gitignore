@@ -1,0 +1,7 @@
+archetypes/
+data/
+layouts/
+themes/
+resources/
+*.log
+.gitmodules
