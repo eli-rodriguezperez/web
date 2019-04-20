@@ -1,0 +1,119 @@
+baseURL = "https://example.com"
+title   = "Eli Rodríguez Pérez"
+
+DefaultContentLanguage = "es"
+
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Eli Rodríguez Pérez"
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "A personal blog in both spanish and english about whatever I want to talk about."
+  keywords = "programming vim emacs activism lgbt trans"
+  images = [""]
+
+  homeSubtitle = "Programming and activism."
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = ["/css/main.css"]
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  themeColor = "#ffe500"
+
+  [params.logo]
+    logoText     = "/home/eli"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/elirp95"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:eli.rodriguezperez95@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/eli-rodriguezperez"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/eli.seven7"
+
+[languages]
+  [languages.es]
+    title = "Eli Rodríguez Pérez"
+    subtitle  = "Programación y activismo"
+    weight    = 1
+    copyright = ''
+
+  [languages.en]
+    title = "Eli Rodríguez Pérez"
+    subtitle  = "Programming and activism."
+    weight    = 2
+    copyright = ''
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About me"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
