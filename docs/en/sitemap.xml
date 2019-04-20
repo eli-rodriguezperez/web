@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/en/index.html</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/en/index.html</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/index.html"
+                href="https://eli-rodriguezperez.github.io/web/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/index.html"
+                href="https://eli-rodriguezperez.github.io/web/en/index.html"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/en/</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/en/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/"
+                href="https://eli-rodriguezperez.github.io/web/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/"
+                href="https://eli-rodriguezperez.github.io/web/en/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/en/tags/</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/tags/"
+                href="https://eli-rodriguezperez.github.io/web/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
+                href="https://eli-rodriguezperez.github.io/web/en/tags/"
                 />
   </url>
   

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eli Rodríguez Pérez</title>
-    <link>https://example.com/</link>
+    <link>https://eli-rodriguezperez.github.io/web/</link>
     <description>Recent content on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eli-rodriguezperez.github.io/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://example.com/about/</link>
+      <link>https://eli-rodriguezperez.github.io/web/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://eli-rodriguezperez.github.io/web/about/</guid>
       <description>Eli Rodríguez Pérez 
 Mi nombre es Eli, soy programadora y activista trans y lésbica. En mi web quiero mostrar entre otras cosas artículos sobre activismo a la vez que informática.
 Entre mis intereses comunes están el software libre, emacs, vim, videojuegos&amp;hellip;

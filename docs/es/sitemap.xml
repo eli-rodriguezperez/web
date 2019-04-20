@@ -3,52 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/index.html</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/index.html</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/index.html"
+                href="https://eli-rodriguezperez.github.io/web/en/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/index.html"
+                href="https://eli-rodriguezperez.github.io/web/index.html"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://example.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://eli-rodriguezperez.github.io/web/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
+                href="https://eli-rodriguezperez.github.io/web/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://example.com/tags/"
+                href="https://eli-rodriguezperez.github.io/web/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguezperez.github.io/web/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguezperez.github.io/web/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguezperez.github.io/web/tags/"
                 />
   </url>
   
