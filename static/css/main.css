@@ -5,11 +5,9 @@
     background: #ffe500; /* Gecko Browsers */
 }
 .dark-theme ::selection {
-    background: #ffe500; /* WebKit/Blink Browsers */
     color: #222;
 }
 .dark-theme ::-moz-selection {
-    background: #ffe500; /* Gecko Browsers */
     color: #222;
 }
 .post-content a::before{
