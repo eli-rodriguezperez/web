@@ -4,12 +4,6 @@
 ::-moz-selection {
     background: #ffe500; /* Gecko Browsers */
 }
-.dark-theme ::selection {
-    color: #222;
-}
-.dark-theme ::-moz-selection {
-    color: #222;
-}
 .post-content a::before{
     content: "";
     background-color: #ffe500;
