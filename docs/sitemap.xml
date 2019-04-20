@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://eli-rodriguezperez.github.io/web/es/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://eli-rodriguezperez.github.io/web/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://eli-rodriguezperez.github.io/web/index.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguezperez.github.io/web/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguezperez.github.io/web/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguezperez.github.io/web/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
