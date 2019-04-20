@@ -26,6 +26,9 @@
     position: relative;
     text-decoration: none;
 }
+.dark-theme .post-content a::before{
+    top: 1.25rem;
+}
 .logo__cursor{
     background: #ffe500;
 }
