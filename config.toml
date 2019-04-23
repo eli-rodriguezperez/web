@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
   description = "A personal blog in both spanish and english about whatever I want to talk about."
@@ -95,6 +95,16 @@ disableHugoGeneratorInject = false
     name = "instagram"
     url  = "https://instagram.com/eli.seven7"
 
+[languages]
+  [languages.es]
+    subtitle  = "Blog personal"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.en]
+    subtitle  = "Personal blog"
+    weight    = 2
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
