@@ -3,47 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/en/index.html</loc>
+    <loc>https://eli-rodriguez.com/en/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/index.html"
+                href="https://eli-rodriguez.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/index.html"
+                href="https://eli-rodriguez.com/en/"
                 />
   </url>
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/en/</loc>
-    <priority>0</priority>
+    <loc>https://eli-rodriguez.com/en/posts/2019/04/modal-editing-the-superior-way-of-editing/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/"
+                href="https://eli-rodriguez.com/posts/2019/04/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/"
+                href="https://eli-rodriguez.com/en/posts/2019/04/modal-editing-the-superior-way-of-editing/"
                 />
   </url>
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/en/tags/</loc>
+    <loc>https://eli-rodriguez.com/en/posts/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/tags/"
+                href="https://eli-rodriguez.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/tags/"
+                href="https://eli-rodriguez.com/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/emacs/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/vim/</loc>
+    <lastmod>2019-04-22T11:29:34+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/vim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/vim/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/index.html</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/index.html"
                 />
   </url>
   

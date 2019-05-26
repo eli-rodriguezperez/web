@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://eli-rodriguez.com/index.html</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguez.com/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguez.com/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguez.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://eli-rodriguez.com/es/sitemap.xml</loc>
+		
+	   	<lastmod>2019-04-22T11:00:03+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://eli-rodriguez.com/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-04-22T11:29:34+02:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

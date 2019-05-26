@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Eli Rodríguez Pérez ">
+<meta name="description"
+    content="Well ok, I might have exagerated. I actually don&amp;rsquo;t care what text editor you use, just use the one you feel most comfortable with. What I really want to transmit with this text is that there are more ways to edit text than the traditional way, the one most people use when they learn how to use a computer.
+I don&amp;rsquo;t want to make anyone feel bad with this post." />
+<meta name="keywords" content="programming vim emacs activism lgbt trans programación activismo lgtb" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://eli-rodriguez.com/en/posts/2019/04/modal-editing-the-superior-way-of-editing/" />
+
+
+<title>
+    
+    Modal editing, the superior way of editing :: Eli Rodríguez Pérez  — Personal blog
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://eli-rodriguez.com/main.min.91687bbfc139d7ff1a244bb6d7324425f9c4f424eaaad242b478e3b3cf56396a.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="https://eli-rodriguez.com/css/main.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://eli-rodriguez.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eli-rodriguez.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eli-rodriguez.com/favicon-16x16.png">
+<link rel="manifest" href="https://eli-rodriguez.com/site.webmanifest">
+<link rel="mask-icon" href="https://eli-rodriguez.com/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://eli-rodriguez.com/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="Modal editing, the superior way of editing">
+<meta itemprop="description" content="Well ok, I might have exagerated. I actually don&rsquo;t care what text editor you use, just use the one you feel most comfortable with. What I really want to transmit with this text is that there are more ways to edit text than the traditional way, the one most people use when they learn how to use a computer.
+I don&rsquo;t want to make anyone feel bad with this post.">
+
+
+<meta itemprop="datePublished" content="2019-04-22T11:29:34&#43;02:00" />
+<meta itemprop="dateModified" content="2019-04-22T11:29:34&#43;02:00" />
+<meta itemprop="wordCount" content="2023">
+
+
+
+<meta itemprop="keywords" content="vim,emacs," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://eli-rodriguez.com/"/>
+
+<meta name="twitter:title" content="Modal editing, the superior way of editing"/>
+<meta name="twitter:description" content="Well ok, I might have exagerated. I actually don&rsquo;t care what text editor you use, just use the one you feel most comfortable with. What I really want to transmit with this text is that there are more ways to edit text than the traditional way, the one most people use when they learn how to use a computer.
+I don&rsquo;t want to make anyone feel bad with this post."/>
+
+
+
+
+<meta property="article:published_time" content="2019-04-22 11:29:34 &#43;0200 CEST" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://eli-rodriguez.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">/home/eli</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://eli-rodriguez.com/en/about/">About me</a></li><li><a href="https://eli-rodriguez.com/en/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>10 minutes
+
+            
+                | Also available in
+                
+                    <a href="https://eli-rodriguez.com/posts/2019/04/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"><span class="flag flag-icon flag-icon-es flag-icon-squared"></span></a>
+                
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://eli-rodriguez.com/en/posts/2019/04/modal-editing-the-superior-way-of-editing/">Modal editing, the superior way of editing</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<p><center><img src="https://lcom.static.linuxfound.org/images/stories/vim-logo.jpg" alt="Vim
+logo" /></center></p>
+
+<p>Well ok, I might have exagerated. I actually don&rsquo;t care what text
+editor you use, just use the one you feel most comfortable with.  What
+I really want to transmit with this text is that there are more ways
+to edit text than <em>the traditional way,</em> the one most people use when
+they learn how to use a computer.</p>
+
+<p>I don&rsquo;t want to make anyone feel bad with this post. This is not an
+editor war, neither about how you have to edit text. If you&rsquo;re reading
+this it&rsquo;s because you&rsquo;re interested in learning about a concept that&rsquo;s
+not common or you want to know what all this is about.</p>
+
+<p>This is also not a tutorial about how to use <em>Vim</em>, I want to focus on
+what implies using a modal text editor and in the <em>why</em>, <em>how</em> and
+<em>how not</em>. I&rsquo;m trying to give some guidance, resources and ideas so
+that if you&rsquo;re interested in learning about it you have some
+preconceived knowledge about modal editing&rsquo;s purpouse.</p>
+
+<p><center><img src="https://eli-rodriguez.com/img/posts/modal-editing/vim-demonstration.gif" alt="Vim editing
+demo" /></center></p>
+
+<h2 id="the-philosophy">The philosophy</h2>
+
+<p>Modal editing was born out of the necessities programmers had back
+when the only way of interacting with the computer was through the
+<em>command line interface</em>. There was no mouse you could use because
+there even weren&rsquo;t any graphical interfaces you could scroll
+through. This is when out of these needs people started to find a way
+to optimize how they edited text through the keyboard.</p>
+
+<p>So well, what&rsquo;s the philosophy behind modal editing? We can summarize
+it in a few lines, but I&rsquo;ll probably forget something.</p>
+
+<ul>
+<li>Optimize the use of the keyboard.</li>
+<li>Minimize the distance our hand travels from what we call the <em>home
+row</em>. This is our keyboard&rsquo;s main row, in which our hand normally
+rests.</li>
+<li>Make use of modes (this is where <em>modal editing</em> comes from), that
+change the behaviour of the different keys in our keyboard so we can
+make use of the specific functions our text editor gives us.</li>
+<li>Understand that, either writing or programming, we actually spend
+more time editing text than adding it, and for that reason the
+optimization of it should be prioritized.</li>
+<li>Reduce the amount of repetitive actions we perform. For this, modal
+editors give us <em>macros</em>, that really facilitates this matter.</li>
+</ul>
+
+<p>The main caracteristic that defines the philosophy is <em>modes</em>. Let&rsquo;s
+say modes are a way to differentiate introducing text from the rest of
+functions we make use of to edit text. If we take a look at <em>Microsoft
+Word</em>, for example, we can see that we have a main way to interact
+with text, while we also have some shortcuts to act on our text. We
+can select text with our mouse, move around with the arrow keys&hellip; All
+this adds up to an intuitive way to edit text, but, is it really an
+efficient way to do it?</p>
+
+<h3 id="how-do-the-controls-we-all-know-translate-to-a-modal-editor">How do the controls we all know translate to a modal editor?</h3>
+
+<p>At first glance, modal editing controls may appear unintuitive or just
+weird. Modal editors make us of mnemonics to try to make it intuitive
+for us to learn the commands. Sounds doubtful, but believe me when I
+say that it&rsquo;s just about undertanding the logic behind it, after that,
+everything in modal editing follows the same principles.</p>
+
+<p>I&rsquo;m going to make use of <em>Vim</em> to explain my point, just because I
+think the sucessor of an edit born in the 70s that&rsquo;s still relevant is
+a good enought reason for me to have it as a reference. And yes, <em>Vi</em>
+wasn&rsquo;t the first modal editor, but it&rsquo;s the one which got popular to
+the point that a lot of people still use it today.</p>
+
+<p><center><img src="https://eli-rodriguez.com/img/posts/modal-editing/vim-modes.gif" alt="Vim mode
+demonstration" /></center></p>
+
+<p><em>Vim</em> (Vi IMproved) tries to take <em>Vi</em> and improve it. Mainly they are
+similar, but I think it&rsquo;s weird to talk about <em>Vi</em> having <em>Vim</em>
+available to us.</p>
+
+<p>This are the modes that <em>Vim</em> has available to us:</p>
+
+<ul>
+<li><code>Normal mode</code>: This mode is the main one, in normal mode we can move
+around the document, search for text, find characters, delete text or
+tell our editor which part of our text we want to modify&hellip; This mode
+makes use of mnemonics to assign functions to the alphanumeric keys of
+our keyboard, for example <code>d</code> for <code>delete</code>, <code>p</code> for <code>paste</code>, etc. To
+move around the document we can use <code>h</code> to move left, <code>j</code> to move
+down, <code>k</code> to move up and <code>l</code> to move right. Again, this may some weird
+but we can move around our document without even reaching for the
+arrows.</li>
+<li><code>Insert mode</code>: Every person know this mode, it&rsquo;s the one every
+modern text editor uses, where you can just type alphanumeric
+characters and they will appear on the screen. We still have some
+shortcuts available to us, but the main purpouse of this mode is just
+introducing text.</li>
+<li><code>Visual mode</code>: This mode exist just for text selection, we still
+have the <code>normal mode</code> movement keys to move around and select
+text. This is a really powerful mode as we can make use of the
+searching fuctionality to move our cursor, and so select whats between
+our starting point and our actual cursors position.</li>
+<li><code>Visual block mode</code>: This mode is exactly like the last one, but we
+can now select text in blocks, this is really useful if we want to
+select text separated by columns, like in data tables.</li>
+<li><code>Replace mode</code>: I&rsquo;ve actually never used this mode, it works as when
+you let find your insert key is turned on in <em>Microsoft Word</em> and just
+replaces text as you write. It doesn&rsquo;t offer much as you probably
+prefer to use normal mode editing functions to replace text.</li>
+</ul>
+
+<p>There are more modes to <em>Vim</em>, like <code>command mode</code>, <code>^X mode</code> or <code>Ex
+command mode</code>, but they are much more advanced and I think it&rsquo;s better
+not to think about them when you&rsquo;re first learning <em>Vim</em>.</p>
+
+<h2 id="the-language">The language</h2>
+
+<p>I&rsquo;ve been talking about modal editing for some time, but I can&rsquo;t
+forget to talk about what makes modal editing actually be useful and
+intuitive. I&rsquo;m talking about the <em>Vim</em> language, it&rsquo;s what <em>Vim</em> uses
+for it&rsquo;s <em>commands</em> or <em>shortcuts</em>. As I said before <code>insert mode</code> is
+the one we use to introduce text, but to make use of the magic that
+<em>Vim</em> is known for we have to take a look at <code>normal mode</code>. Every
+<em>command</em> is formed by three parts: a <em>verb</em>, a <em>subject</em> and
+optionally a <em>movement</em>. This makes the automation and repetition of
+this <em>commands</em> so easy. You can now use <em>macros</em> around this
+<em>commands</em>. Let&rsquo;s take a look at some examples.</p>
+
+<p><center><img src="https://eli-rodriguez.com/img/posts/modal-editing/vim-words.png" alt="Vim command
+structure" /></center></p>
+
+<p>How is it possible to memorized every single <em>Vim</em> command, how can
+we, for example, delete two words? Well, we want to <strong>delete</strong>,
+<strong>two</strong>, <strong>words</strong>. We have <em>delete</em> as a verb, <em>word</em> as a subject
+and <em>two</em> as a movement. It&rsquo;s so easy as positioning our cursor behind
+the first word we want to delete, and in <code>normal mode</code> type <code>d2w</code>. Is
+it really that easy? what does that mean? Literally <em>delete two
+words</em>. That&rsquo;s how vim commands work. How can we change a word? <code>cw</code>
+(<em>Change Word</em>), delete an entire paragraph? <code>dip</code> (<em>Delete Inside
+Paragraph</em>), change the content of a quoted text? <code>ci&quot;</code> (<em>Change
+Inside &ldquo;</em>). We could spend the entire day listing example, but you get
+the point.</p>
+
+<h2 id="why-make-use-of-modal-editing">Why make use of modal editing?</h2>
+
+<p>Even though behind the philosophy there is no focus in health, it&rsquo;s
+inherent that moving your hand and specially your wrist less, makes
+for a healthier typing experience. There is no real scientific study
+behind it but it&rsquo;s well known that it can help with wrist pains
+derived from having to move your hand so much between your keyboard
+and the arrow keys or the mouse.</p>
+
+<p>Speed is one of it&rsquo;s main advantages. Once you learn the basic
+movement keys and the purpouse of the several modes available to us,
+every action is at most at two keys of distance of our fingers.</p>
+
+<p>Learning to use modal editing is tedious, you have to change your way
+of thinking, a bit like when you learn to program, but when you start
+to have some agility it&rsquo;s easy to see the benefits. In my case, I
+started learning <em>Vim</em> because I got interested in improving my speed,
+every travel to they mouse or arrow keys feels cumbersome and made me
+feel clumsy.</p>
+
+<p>If I&rsquo;m honest with you, I don&rsquo;t think learning it is difficult at all,
+once you learn the main concepts it&rsquo;s all about logic to keep making
+sense of the commands.</p>
+
+<h2 id="how-not-to-learn-about-modal-editing">How not to learn about modal editing?</h2>
+
+<p>I&rsquo;ve said <em>Vim</em> is not hard, yes, but it requieres a learning
+period. You shouldn&rsquo;t force yourself to use it at work or in a project
+that requires to be productive, at least give it some time before you
+start depending on it.</p>
+
+<p><center><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fergoemacs.org%2Femacs%2Fi%2Femacs_learning_curves.png&amp;f=1" alt="Learning
+curves" /></center></p>
+
+<p>You don&rsquo;t actually have to use <code>vim</code> to learn modal editing, every
+decent and modernt text editor has some kind of plugin to get modal
+editing working for it. <em>Visual Studio Code</em> has one for it, start
+using that and maybe move towards <em>Vim</em> progressively.</p>
+
+<h2 id="how-to-actually-learn-about-modal-editing">How to actually learn about modal editing?</h2>
+
+<p>If you&rsquo;re inclined to learn <em>Vim</em> you can make use of <code>vimtutor</code> in
+the console, which is a really good resource that guides you through
+vim while you learn about it&rsquo;s controls and commands. <code>vimtutor</code> comes
+installed with <code>vim</code> and if you&rsquo;re using any <em>linux</em> distro it&rsquo;s
+probably available to you.</p>
+
+<p>If you end up deciding to use <code>emacs</code>, which by default is not a modal
+editor, it&rsquo;s <code>evil</code> packages might be helpful to you. They turn
+<em>Emacs</em> into a full fledged modal editor based on <em>Vim</em>
+controls. <em>Emacs&rsquo;</em> <code>evil</code> packages have <code>evil-tutor</code>, which is just a
+translation of <code>vimtutor</code> that comes with <code>evil</code>.</p>
+
+<p>As I said before, any decent known text editor has a plugin that
+implements modal editing to it. Make use of that plugin. I don&rsquo;t have
+a tutorial for each of them but you can start to try writing small
+texts, twitts, maybe emails or whatever motivates you to keep
+learning.</p>
+
+<p>You can also play, yes, play! There are some simple games that make
+use of <em>Vim</em> movement keys and several others to try and make you
+comfortable moving around with them. There are lots of them, I
+recommend you <a href="https://vim-adventures.com/">this one.</a>.</p>
+
+<p>One of the resources that helped me most was the
+<a href="https://www.youtube.com/user/ThoughtbotVideo/">ThoughtBot</a> youtube
+channel, which normally upload videos of the talks they host, where
+some of them are about <em>Vim</em> and <em>Emacs</em>. The ones I recommend the
+most are <a href="https://www.youtube.com/watch?v=_NUO4JEtkDw"><em>&ldquo;learning Vim in a
+week&rdquo;</em></a> and <a href="https://www.youtube.com/watch?v=JWD1Fpdd4Pc"><em>&ldquo;How I
+Learned to Stop Worrying and Love
+Emacs&rdquo;</em></a>.</p>
+
+<p>This <a href="https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118">other
+text</a>
+comes into detail about how you can make use of <code>vim</code> beyond what most
+people know about it, in a really advanced way.</p>
+
+<p>If you end up using <em>Vim</em> or <em>Emacs</em>, the posibilities this text
+editors offer us are inmense, they introduce a programming language
+interpreter that let us expand the functionalities of this editors
+with the only limit of our imagination. It&rsquo;s also because of this that
+we can feel intimidated coming into this editors, they have to much to
+offer but also so much to learn, I recommend you learn the basics and
+learn little by little how you can improve your speed and
+functionalities that could come in handy to you.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This is the end of my text, if you were coming for an answer on how to
+get out of <em>Vim</em> it was <code>:q</code>. With this post I wanted to abstract
+myself from the technical questions. It&rsquo;s possible that in the future
+I&rsquo;ll write something more technical, but there are already tons of
+resources on how to learn <em>Vim</em> so you will probably have to wait.</p>
+
+<h2 id="links-of-interest">Links of interest</h2>
+
+<ul>
+<li><a href="https://insights.stackoverflow.com/survey/2019#development-environments-and-tools">2019 text editor popularity survey by Stack
+Overflow.</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vi">The Wikipedia page of Vi, the predecessor of
+Vim</a></li>
+<li><a href="https://www.vim.org/">Vim, <strong>the</strong> modal text editor.</a></li>
+<li><a href="https://github.com/eli-rodriguezperez/dotfiles/blob/master/init.el">Link to my emacs config file, adapted for modal
+editing.</a></li>
+<li><a href="https://github.com/eli-rodriguezperez/dotfiles/blob/master/.config/nvim/init.vim">Link to my vim config
+file</a></li>
+<li><a href="https://vim-adventures.com/">Vim-adventures, a game that makes use of vim controls to teach you
+vim.</a></li>
+<li><a href="https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118">A post that tries to teach us about the advanced ways we can make
+use of vim.</a></li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://eli-rodriguez.com/tags/vim">vim</a></span><span class="tag"><a href="https://eli-rodriguez.com/tags/emacs">emacs</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>2023 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-04-22 11:29</p>
+        </div>
+
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+                <span><a href="https://eli-rodriguez.com/">Eli Rodríguez Pérez</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://eli-rodriguez.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://eli-rodriguez.com/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js" integrity="sha512-z3hx7UlHSoDtRXFU0k5h94ga2&#43;D5OElRp0rEa2iKOaTb&#43;mi8bTe66wWBht41Tq00h9Tufwg&#43;pMuoYMSGALaU8w=="></script>
+
+
+
+    </body>
+</html>

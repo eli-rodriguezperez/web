@@ -3,53 +3,118 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/index.html</loc>
-    <priority>0</priority>
+    <loc>https://eli-rodriguez.com/posts/2019/04/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/index.html"
+                href="https://eli-rodriguez.com/en/posts/2019/04/modal-editing-the-superior-way-of-editing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/index.html"
+                href="https://eli-rodriguez.com/posts/2019/04/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
                 />
   </url>
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguezperez.github.io/web/</loc>
+    <loc>https://eli-rodriguez.com/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/"
+                href="https://eli-rodriguez.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/"
+                href="https://eli-rodriguez.com/"
                 />
   </url>
   
   <url>
-    <loc>https://eli-rodriguezperez.github.io/web/tags/</loc>
+    <loc>https://eli-rodriguez.com/posts/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eli-rodriguezperez.github.io/web/en/tags/"
+                href="https://eli-rodriguez.com/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eli-rodriguezperez.github.io/web/tags/"
+                href="https://eli-rodriguez.com/posts/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/emacs/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/vim/</loc>
+    <lastmod>2019-04-22T11:00:03+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/vim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/vim/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/index.html</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/index.html"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/about/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
