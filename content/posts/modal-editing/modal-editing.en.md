@@ -1,6 +1,6 @@
 ---
 title: "Modal editing, the superior way of editing"
-date: 2019-04-22T11:29:34+02:00
+date: 2019-05-26T15:29:34+02:00
 draft: false
 language: en
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Edición modal, la mejor manera de editar texto"
-date: 2019-04-22T11:00:03+02:00
+date: 2019-05-26T15:29:34+02:00
 draft: false
 language: es
 tags:
