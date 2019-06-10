@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/en/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -19,23 +19,13 @@
   </url>
   
   <url>
-    <loc>https://eli-rodriguez.com/en/posts/2019/05/modal-editing-the-superior-way-of-editing/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eli-rodriguez.com/posts/2019/05/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eli-rodriguez.com/en/posts/2019/05/modal-editing-the-superior-way-of-editing/"
-                />
+    <loc>https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/</loc>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://eli-rodriguez.com/en/posts/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -51,7 +41,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/en/tags/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -62,6 +52,49 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://eli-rodriguez.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/efficiency/</loc>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/keyboard/</loc>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/vim/</loc>
+    <lastmod>2019-06-09T12:28:56+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/vim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/vim/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/</loc>
+    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/posts/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/"
                 />
   </url>
   
@@ -82,22 +115,6 @@
   </url>
   
   <url>
-    <loc>https://eli-rodriguez.com/en/tags/vim/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eli-rodriguez.com/tags/vim/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eli-rodriguez.com/en/tags/vim/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eli-rodriguez.com/en/index.html</loc>
     <priority>0</priority>
     <xhtml:link
@@ -109,6 +126,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://eli-rodriguez.com/en/index.html"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/about/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/about/"
                 />
   </url>
   
