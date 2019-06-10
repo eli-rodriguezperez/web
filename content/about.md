@@ -15,4 +15,4 @@ Puedes encontrar de interés mis siguientes enlaces:
  - <https://github.com/eli-rodriguezperez>
  - <eli.rodriguezperez95@gmail.com>
 
-Esta web estática está generada con [Hugo](https://gohugo.io)
+Esta web estática está generada con [Hugo](https://gohugo.io).
