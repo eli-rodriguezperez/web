@@ -36,7 +36,7 @@ hacer las cosas.</p>
 <p>Esto tampoco es un tutorial de cómo usar <em>Vim</em>, quiero centrarme en lo
 que implica usar un editor modal, el porqué, el cómo y el cómo no. Voy
 a dar algunos recursos e ideas que pueden ayudar si alguien se anima a
-aprender pero esto <strong>no</strong> es un tutorial.</p>
+aprender, pero esto <strong>no</strong> es un tutorial.</p>
 
 <p><center><img src="/img/posts/modal-editing/vim-demonstration.gif" alt="" /></center></p>
 
@@ -44,26 +44,26 @@ aprender pero esto <strong>no</strong> es un tutorial.</p>
 
 <p>La edición modal nace de las necesidades que tenían los programadores
 allá cuando para interactuar con un ordenador tenías que hacerlo a
-través de la <em>linea de comandos</em>. No existían ratones porque no
+través de la <em>línea de comandos</em>. No existían ratones porque no
 existía una interfaz por la que navegar. Aquí es donde a partir de
 estas necesidades surgen los intentos de optimizar la manera en la que
 editamos texto.</p>
 
-<p>¿Y bueno, cuál es la filosofía de la edición modal? os
+<p>Y bueno &ldquo;¿Cuál es la filosofía de la edición modal?&rdquo; os
 preguntaréis. Se podría resumir en unos puntos bastante concretos
 aunque probablemente me deje algo:</p>
 
 <ul>
 <li>Optimizar el uso del teclado.</li>
 <li>Minimizar la distancia en la que movemos la mano de lo que se llama
-la <em>home row</em>, que es la linea principal donde descansan los dedos.</li>
+la <em>home row</em>, que es la línea principal donde descansan los dedos.</li>
 <li>Utilizar modos, de ahí <em>edición modal</em>, que cambian el
 comportamiento de cada una de las teclas para hacer uso de funciones
 específicas.</li>
 <li>Entender que, estés escribiendo un libro o programando, pasamos más
 tiempo editando texto que añadiéndolo, y por tanto, la optimización
 de ello deba priorizarse.</li>
-<li>Reducir el número de acciones repetitivas que hacemos, para ello
+<li>Reducir el número de acciones repetitivas que hacemos y para ello
 hace uso de <em>macros</em> que facilitan las tareas repetitivas.</li>
 </ul>
 
@@ -80,14 +80,14 @@ pero ¿es una manera eficiente de hacerlo?</p>
 
 <p>Los controles pueden resultar raros o poco intuitivos, aunque se
 utiliza la mnemotécnica para facilitar el recordar los comandos. Suena
-raro, pero creeme cuando digo que es cuestión de entender la lógica, a
+raro, pero créeme cuando digo que es cuestión de entender la lógica, a
 partir de ahí, todo sigue los mismos principios.</p>
 
 <p>Y como yo vengo aquí a hablar de mi libro, voy a hablar de
-<em>Vim</em>. Porque el sucesor de un editor que se creó en 1976 y sigue
-teniendo relevancia a día de hoy me parece lo suficientemente
+<em>Vim</em>. Porque es el sucesor de un editor que se creó en 1976 y sigue
+teniendo relevancia a día de hoy, me parece lo suficientemente
 importante para tenerlo de referencia. <em>Vi</em> no fue el primer editor
-modal, pero fué el que se popularizó hasta el punto de seguirse
+modal, pero fue el que se popularizó hasta el punto de seguirse
 utilizando a día de hoy.</p>
 
 <p><center><img src="/img/posts/modal-editing/vim-modes.gif" alt="" /></center></p>
@@ -101,14 +101,15 @@ los modos que utiliza:</p>
 <li><code>Normal mode</code>: Este modo, que traducido sería <em>modo normal</em>, es el
 modo principal, en el que más tiempo se suele pasar normalmente. En
 el <em>modo normal</em> podemos movernos por el documento, buscar texto,
-buscar carácteres, borrar texto o decirle al editor cuál es la parte
+buscar caracteres, borrar texto o decirle al editor cuál es la parte
 del texto que queremos modificar, entre muchas otras cosas. Este
 modo utiliza la mnemotécnica para asignar funciones a las teclas
-alfanuméricas, como podría ser <code>d</code> para <code>delete</code>, <code>p</code> para
+alfanuméricas, como podría ser <code>d</code> para <code>delete</code> y <code>p</code> para
 <code>paste</code>. Para moverte por el texto existen diferentes teclas, pero
 las principales serían <code>h</code> para moverse a la izquierda, <code>l</code> a la
 derecha, <code>j</code> hacia abajo y <code>k</code> hacia arriba. Suena raro, pero ahora
-podemos movernos por el texto sin mover la mano para llegar a las flechas.</li>
+podemos movernos por el texto sin mover la mano para llegar a las
+flechas.</li>
 <li><code>Insert mode</code>: Este modo es el que todo el mundo conoce, el que está
 en todas partes, y es como bien indica su nombre el modo para
 insertar texto. Se podría decir que es uno de los modos en los que
@@ -119,15 +120,15 @@ puntuales.</li>
 <li><code>Visual mode</code>: Este modo es únicamente para seleccionar texto,
 seguimos teniendo las teclas de control del <em>modo normal</em> para
 movernos por el texto y que este se seleccione. Este modo es muy
-potente ya que podemos usar las teclas de búsqueda para mover
+potente, ya que podemos usar las teclas de búsqueda para mover
 nuestro cursor y así mover la selección también.</li>
-<li><code>Visual block mode</code>: Este viene siendo exáctamente el mismo modo que
-antes, solo que el texto se selecciona en bloques, es muy útil para
+<li><code>Visual block mode</code>: Este viene siendo exactamente el mismo modo que
+antes, solo que el texto se selecciona en bloques. Es muy útil para
 seleccionar texto que está separado en colúmnas como pueden ser las
 tablas de datos.</li>
 <li><code>Replace mode</code>: Este modo no lo he usado en mi vida, funciona igual
 que cuando te dejas pulsada la tecla insert en word. No ofrece
-ninguna utilidad ya que es más recomendable hacer uso de las
+ninguna utilidad, puesto que es más recomendable hacer uso de las
 utilidades que Vim ofrece en su <strong>modo normal</strong>.</li>
 </ul>
 
@@ -142,7 +143,7 @@ momento.</p>
 <p>He hablado un buen rato de la edición modal, pero no podemos
 olvidarnos de la parte que hace que la edición modal sea eficiente e
 intuitiva. Hablo del lenguaje que usa <code>vim</code> para sus <em>comandos</em> o
-<em>atajos de teclado</em>. Como he dicho antes el modo <code>insert</code> es el que
+<em>atajos de teclado</em>. Como he dicho antes, el modo <code>insert</code> es el que
 usamos para escribir texto, pero para hacer mágia tenemos el modo
 <code>normal</code>. Cada <em>comando</em> está formado por tres partes: un <em>verbo</em>, un
 <em>sujeto</em> y opcionalmente un <em>movimiento</em>. Esto facilita la
@@ -158,24 +159,24 @@ queremos <strong>borrar</strong>, <strong>dos</strong>, <strong>palabras</strong
 verbo, <em>palabras</em> como sujeto y <em>dos</em> como movimiento. No es más
 difícil que posicionar el cursor debajo de la palabra que queremos
 borrar y darle a <code>d2w</code>. Pero vamos a ver, cómo que <code>d2w</code>, ¿qué
-significa eso? Literalmente <em>delete two words</em>. También podemos añadir
-un multiplicador al principio para repetir el comando, por ejemplo,
-¿qué haríamos en caso de querer borrar dos veces dos palabras?
-<code>2d2w</code>. ¿Cambiar una palabra? <code>cw</code> (<em>Change Word</em>), ¿borrar un
-párrafo? <code>dip</code> (<em>Delete Inside Paragraph</em>), ¿cambiar el contenido de
-un texto entre comillas? <code>ci&quot;</code> (<em>Change Inside &ldquo;</em>). Y así podría
+significa eso? Literalmente, <em>delete two words</em>. También podemos
+añadir un multiplicador al principio para repetir el comando. Por
+ejemplo, ¿qué haríamos en caso de querer borrar dos veces dos
+palabras?  <code>2d2w</code>. ¿Cambiar una palabra? <code>cw</code> (<em>Change Word</em>), ¿borrar
+un párrafo? <code>dip</code> (<em>Delete Inside Paragraph</em>), ¿cambiar el contenido
+de un texto entre comillas? <code>ci&quot;</code> (<em>Change Inside &ldquo;</em>). Y así podría
 seguir hasta el infinito, hay verbos para todo y sujetos de todo tipo.</p>
 
 <h2 id="por-qué-usar-la-edición-modal">¿Por qué usar la edición modal?</h2>
 
 <p>Aunque tras la filosofía no haya una preocupación por la salud, y
 aunque no haya un estudio real que lo pruebe, se dice que usar un
-editor modal puede ayudar a reducir dolores de muñeca, derivados de
+editor modal puede ayudar a reducir dolores de muñeca derivados de
 tener que hacer tantos movimientos para llegar a las flechas del
 teclado o a coger el ratón.</p>
 
 <p>La rapidez es una de las ventajas principales por las que aprender a
-usar la edición modal, una vez aprendidos los movimientos básicos y
+usar la edición modal. Una vez aprendidos los movimientos básicos y
 los propósitos de los distintos modos, todas las acciones que queramos
 realizar sobre nuestro texto están como mucho a dos teclas de
 distancia de nuestros dedos.</p>
@@ -209,52 +210,54 @@ plugin de Vim para cosas sencillas.</p>
 
 <h2 id="cómo-sí-aprender-a-usar-la-edición-modal">¿Cómo sí aprender a usar la edición modal?</h2>
 
-<p>Si estás dispuesta a usar <em>Vim</em> como editor para aprender, puedes
+<ul>
+<li><p>Si estás dispuesta a usar <em>Vim</em> como editor para aprender, puedes
 hacer uso de <code>vimtutor</code>, que es un muy buen recurso que te guía a
-través del mismo de programa de <em>Vim</em> sobre un documento de texto que
+través del mismo de programa <em>Vim</em> sobre un documento de texto que
 progresivamente te enseña los controles. Como apunte, <code>vimtutor</code> viene
 instalado con Vim y lo más probable es que si tienes instalado <em>linux</em>
-o <em>macOS</em> venga preinstalado.</p>
+o <em>macOS</em> venga preinstalado.</p></li>
 
-<p>Si te decides por usar <code>emacs</code>, que por defecto no es un editor modal,
-con sus paquetes <em>evil</em> que implementan la funcionalidad modal, puedes
-hacer uso de <em>evil-tutor</em> que es una traducción a <em>Emacs</em> del
-<code>vimtutor</code> hablado anteriormente.</p>
+<li><p>Si te decides por usar <code>emacs</code>, que por defecto no es un editor
+modal, con sus paquetes <em>evil</em> que implementan la funcionalidad modal
+puedes hacer uso de <em>evil-tutor</em>, que es una traducción a <em>Emacs</em> del
+<code>vimtutor</code> hablado anteriormente.</p></li>
 
-<p>Como he dicho antes, cualquier editor conocido dispone de un plugin
+<li><p>Como he dicho antes, cualquier editor conocido dispone de un plugin
 que implementa la funcionalidad modal en el mismo. Haz uso de ese
 modo, no conozco de tutoriales para cada uno de ellos, pero puedes
-intentar escribir textos básicos, tuits, correos, lo que sea que te anime a
-aprender.</p>
+intentar escribir textos básicos, tuits, correos, lo que sea que te
+anime a aprender.</p></li>
 
-<p>También puedes jugar, sí, jugar. Existen juegos simples que haciendo
+<li><p>También puedes jugar. Sí, jugar. Existen juegos simples que haciendo
 uso de los controles de Vim intentan transmitirte los mismos controles
 que puedes utilizar en el editor de texto. Sé que hay varios, pero yo
-recomiendo <a href="https://vim-adventures.com/">este</a>.</p>
+recomiendo <a href="https://vim-adventures.com/">este</a>.</p></li>
 
-<p>Uno de los recursos que más me ayudó a mi fue el canal de youtube de
-<a href="https://www.youtube.com/user/ThoughtbotVideo/">ThoughtBot</a>, que
+<li><p>Uno de los recursos que más me ayudó a mí fue el canal de youtube de
+<a href="https://www.youtube.com/user/ThoughtbotVideo/">ThoughtBot</a>, donde
 suelen subir videos de las charlas que acogen, entre ellas algunas de
 <em>Vim</em> y *Emacs**. Las que más recomendaría son <a href="https://www.youtube.com/watch?v=_NUO4JEtkDw"><em>&ldquo;aprendiendo Vim en
 una semana&rdquo;</em></a> y <a href="https://www.youtube.com/watch?v=JWD1Fpdd4Pc"><em>&ldquo;cómo
 dejé de preocuparme y acepté
 emacs&rdquo;</em></a>. Ambas en inglés
-pero muy interesantes.</p>
+pero muy interesantes.</p></li>
 
-<p>Este <a href="https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118">otro
+<li><p>Este <a href="https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118">otro
 texto</a>
 entra en detalle en cómo poder usar <code>vim</code> más allá de los controles
 básicos, fijándose en cómo incorpora funcionalidades de <code>ed</code> y demás
-utilidades.</p>
+utilidades.</p></li>
 
-<p>Afrontarlo progresivamente. Si acabas usando <em>Vim</em> o <em>Emacs</em>, las
+<li><p>Afróntalo progresivamente. Si acabas usando <em>Vim</em> o <em>Emacs</em>, las
 posibilidades que ofrecen estos editores son infinitas, ya que
 incorporan un lenguaje de programación para ampliar la funcionalidad
 de estos editores. Y <strong>todo</strong> lo que se nos pueda ocurrir hacer, se
 puede hacer. Es por ello que cuando empezamos a aprender nos podemos
 sentir sobrecogidos por la cantidad de información, y lo recomendable
 es aprender lo básico e ir investigando poco a poco cómo hacer uso de
-las funcionalidades que necesitemos.</p>
+las funcionalidades que necesitemos.</p></li>
+</ul>
 
 <h2 id="conclusión">Conclusión</h2>
 
