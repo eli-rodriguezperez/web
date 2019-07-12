@@ -2,48 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eli Rodríguez Pérez</title>
-    <link>https://eli-rodriguez.com/en/</link>
+    <link>https://eli-rodriguez.com/en/index.html</link>
     <description>Recent content on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 21:09:56 +0200</lastBuildDate>
     
 	<atom:link href="https://eli-rodriguez.com/en/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My current keyboard layout</title>
-      <link>https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/</link>
-      <pubDate>Mon, 10 Jun 2019 21:09:56 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/</guid>
-      <description>As you may have realized based on my previous post, I&amp;rsquo;m really into improving my efficiency when it comes to programming and using the keyboard in general. That&amp;rsquo;s why I got into Vim and that&amp;rsquo;s why now I&amp;rsquo;m into keyboard stuff.
-When I was little I remember my dad teaching me to touch type, we didn&amp;rsquo;t even have a computer at home, but my dad thought it was important for me to learn to use a keyboard and brought an old typewriter home.</description>
-    </item>
-    
-    <item>
-      <title>Modal editing, the superior way of editing</title>
-      <link>https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/</link>
-      <pubDate>Sun, 26 May 2019 15:29:34 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/</guid>
-      <description>Well ok, I might have exagerated. I actually don&amp;rsquo;t care what text editor you use, just use the one you feel most comfortable with. What I really want to transmit with this text is that there are more ways to edit text than the traditional way, the one most people use when they learn how to use a computer.
-I don&amp;rsquo;t want to make anyone feel bad with this post.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://eli-rodriguez.com/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/about/</guid>
-      <description>Eli Rodríguez Pérez 
-My name is Eli, I&amp;rsquo;m a programmer and a trans and lesbian activist. My webpage will contain articles about activism and everything computers.
-I&amp;rsquo;m interested in free software, emacs, vim, videogames&amp;hellip;
-If you&amp;rsquo;re interested, you cand find a link to my Emacs config here. My Vim config can be found here.
-You can also find me in several social networks listed below:
- https://www.twitter.com/elirp95 https://www.instagram.com/eli.seven7 https://github.</description>
-    </item>
     
   </channel>
 </rss>
