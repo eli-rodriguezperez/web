@@ -1,9 +1,9 @@
 ---
 title: "Using an even smaller keyboard"
-date: 2019-07-12T12:31:24+02:00
-draft: true
+date: 2019-09-29T15:40:00+02:00
+draft: false
 toc: false
-images:
+image: "/img/posts/ortholinear-keyboard/niu-mini.jpg"
 tags:
   - vim
   - keyboard
@@ -51,8 +51,8 @@ that I'm not using. It's not about the number of keys, it's about how you use
 them. And having the possibility of programming the functionality of each key
 has made me realize that I need no more than a 40% keyboard.
 
-I also have to point out that 40% keyboards are don't have to be all the same
-and being a 40% doesn't mean that it has to be ortholinear. This is a photo of a
+I also have to point out that 40% keyboards don't have to be all the same and
+being a 40% doesn't mean that it has to be ortholinear. This is a photo of a
 keyboard that while being a 40% it's still a staggered keyboard.
 
 {{< figure src="/img/posts/ortholinear-keyboard/smol-keeb.jpg"

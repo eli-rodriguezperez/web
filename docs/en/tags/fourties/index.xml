@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>keyboard on Eli Rodríguez Pérez</title>
-    <link>https://eli-rodriguez.com/en/tags/keyboard/</link>
-    <description>Recent content in keyboard on Eli Rodríguez Pérez</description>
+    <title>fourties on Eli Rodríguez Pérez</title>
+    <link>https://eli-rodriguez.com/en/tags/fourties/</link>
+    <description>Recent content in fourties on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 29 Sep 2019 15:40:00 +0200</lastBuildDate>
     
-	<atom:link href="https://eli-rodriguez.com/en/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eli-rodriguez.com/en/tags/fourties/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>40% ortholinear keyboard  Last time I discovered the wonderful world of QMK and keyboard firmware customization. If you remember, we went onto how important it is to feel comfortable using your keyboard, specially when it&amp;rsquo;s your work tool. I teased this post with a question that said: &amp;ldquo;could I go even smaller?&amp;rdquo;. And so, even smaller I went.
 40% ortholinear keyboard   
 This is my new keyboard, it&amp;rsquo;s a 40% ortholinear keyboard and it&amp;rsquo;s my new daily driver.</description>
-    </item>
-    
-    <item>
-      <title>My current keyboard layout</title>
-      <link>https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/</link>
-      <pubDate>Mon, 10 Jun 2019 21:09:56 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/posts/my-current-keyboard-layout/</guid>
-      <description>As you may have realized based on my previous post, I&amp;rsquo;m really into improving my efficiency when it comes to programming and using the keyboard in general. That&amp;rsquo;s why I got into Vim and that&amp;rsquo;s why now I&amp;rsquo;m into keyboard stuff.
-When I was little I remember my dad teaching me to touch type, we didn&amp;rsquo;t even have a computer at home, but my dad thought it was important for me to learn to use a keyboard and brought an old typewriter home.</description>
     </item>
     
   </channel>
