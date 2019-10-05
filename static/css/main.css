@@ -1,26 +1,51 @@
+code {
+    font-family: Roboto Mono, Noto Sans Mono, SF Mono, Menlo, consolas, monospace;
+    padding: 0px 2px;
+    border-radius: 2px;
+}
+html .post {
+    text-align: justify;
+}
+
+body.dark-theme {
+    color: rgba(244, 244, 244, .9);
+    background-color: #1d2021;
+}
+
 ::selection {
     background: #ffe500; /* WebKit/Blink Browsers */
+    color: #121212;
 }
+
 ::-moz-selection {
     background: #ffe500; /* Gecko Browsers */
+    color: #121212;
 }
-.post-content a::before{
-    content: "";
-    background-color: #ffe500;
-    width: 100%;
-    height: .2rem;
-    position: absolute;
-    left: 0;
-    top: .95rem;
-    z-index: -1;
-}
-.post-content a{
+
+.dark-theme .post-content a{
+    box-shadow: inset 0 -.5em 0 #ffe50050;
     position: relative;
     text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
 }
-.dark-theme .post-content a::before{
-    top: 1.25rem;
+
+.dark-theme .post-content a:hover{
+    box-shadow: inset 0 -1.2em 0 #95e8ed50;
+    color: #f4f4f4;
 }
+
+.post-content a{
+    box-shadow: inset 0 -.5em 0 #ffe500;
+    position: relative;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.post-content a:hover{
+    box-shadow: inset 0 -1.2em 0 #95e8ed;
+    color: #121212;
+}
+
 .logo__cursor{
     background: #ffe500;
 }
