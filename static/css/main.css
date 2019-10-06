@@ -1,3 +1,9 @@
+html {
+    letter-spacing: normal;
+}
+body {
+    font-family: Open Sans, Roboto Slab, Roboto, inter ui,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+}
 code {
     font-family: Roboto Mono, Noto Sans Mono, SF Mono, Menlo, consolas, monospace;
     padding: 0px 2px;
