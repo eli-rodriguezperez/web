@@ -3,23 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eli-rodriguez.com/posts/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eli-rodriguez.com/posts/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eli-rodriguez.com/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -35,7 +20,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/posts/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -51,7 +36,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/tags/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -62,6 +47,116 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eli-rodriguez.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/posts/usando-un-teclado-todav%C3%ADa-m%C3%A1s-peque%C3%B1ito/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/posts/using-an-even-smaller-keyboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/posts/usando-un-teclado-todav%C3%ADa-m%C3%A1s-peque%C3%B1ito/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/efficiency/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/efficiency/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/efficiency/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/fourties/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/fourties/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/fourties/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/keyboard/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/keyboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/keyboard/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/ortholinear/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/ortholinear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/ortholinear/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/tags/vim/</loc>
+    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/vim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/vim/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/posts/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/</loc>
+    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/posts/modal-editing-the-superior-way-of-editing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/posts/edici%C3%B3n-modal-la-mejor-manera-de-editar-texto/"
                 />
   </url>
   
@@ -78,22 +173,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eli-rodriguez.com/tags/emacs/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguez.com/tags/vim/</loc>
-    <lastmod>2019-05-26T15:29:34+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eli-rodriguez.com/en/tags/vim/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eli-rodriguez.com/tags/vim/"
                 />
   </url>
   
