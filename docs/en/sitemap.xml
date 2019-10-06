@@ -182,21 +182,6 @@
   </url>
   
   <url>
-    <loc>https://eli-rodriguez.com/en/index.html</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eli-rodriguez.com/index.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eli-rodriguez.com/en/index.html"
-                />
-  </url>
-  
-  <url>
     <loc>https://eli-rodriguez.com/en/about/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -208,6 +193,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://eli-rodriguez.com/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/categories/"
                 />
   </url>
   

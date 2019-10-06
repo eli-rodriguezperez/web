@@ -42,7 +42,7 @@ disableHugoGeneratorInject = false
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -53,7 +53,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "A personal blog in both spanish and english about whatever I want to talk about."
   keywords = "programming vim emacs activism lgbt trans programación activismo lgtb"
-  images = [""]
+  images = ["./static/img/eli-portrait.png"]
 
   homeSubtitle = "Programming and activism."
 
@@ -67,6 +67,8 @@ disableHugoGeneratorInject = false
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .content.
+
+  contentTypeName = "posts"
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
