@@ -23,15 +23,7 @@ venir. ¡Y aquí está!
 
 ## Mi nuevo teclado
 
-<center>
-    <iframe
-    width="760"
-    height="428"
-    src="https://www.youtube.com/embed/bEPg8kk84gw"
-    frameborder="0"
-    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-</center>
+{{< youtube bEPg8kk84gw >}}
 
 Este es mi nuevo teclado, es un teclado ortolineal con un tamaño del 40% y es mi
 nueva herramienta de trabajo. Lo uso para todo, para jugar, programar, editar
