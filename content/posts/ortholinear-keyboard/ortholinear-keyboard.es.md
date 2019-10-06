@@ -86,7 +86,7 @@ disponibles.
 caption="Teclado tradicional de tamaño completo">}}
 
 Podemos discutir que un teclado ortolineal no tiene por qué ser ergonómico de
-por si, y eso sería correcto. Pero al mismo tiempo, estar atrapadas en el diseño
+por sí, y eso sería correcto. Pero al mismo tiempo, estar atrapadas en el diseño
 de teclado inventado para una máquina de escribir hace más de cien años no creo
 que lo sea tampoco. La mayoría de teclados modernos están basados en los
 populares modelos de teclado fabricados por IBM en los 70, que fueron una
