@@ -15,8 +15,7 @@
             
             <guid>https://eli-rodriguez.com/posts/usando-un-teclado-todav%C3%ADa-m%C3%A1s-peque%C3%B1ito/</guid>
             <description>40% ortholinear keyboard  La última vez descubrí el maravilloso mundo de QMK y la personalización de firmware en teclados. Si recordáis, estuvimos hablando de la importancia de sentirse cómoda usando tu teclado, sobre todo cuando es tu herramienta de trabajo. También di un poco una pista de que este otro post iba a venir. ¡Y aquí está!
-Mi nuevo teclado   
-Este es mi nuevo teclado, es un teclado ortolineal con un tamaño del 40% y es mi nueva herramienta de trabajo.</description>
+Mi nuevo teclado   Este es mi nuevo teclado, es un teclado ortolineal con un tamaño del 40% y es mi nueva herramienta de trabajo.</description>
             <content type="html"><![CDATA[
 
 
@@ -38,15 +37,11 @@ venir. ¡Y aquí está!</p>
 
 <h2 id="mi-nuevo-teclado">Mi nuevo teclado</h2>
 
-<p><center>
-    <iframe
-    width="760"
-    height="428"
-    src="https://www.youtube.com/embed/bEPg8kk84gw"
-    frameborder="0"
-    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-</center></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/bEPg8kk84gw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 
 <p>Este es mi nuevo teclado, es un teclado ortolineal con un tamaño del 40% y es mi
 nueva herramienta de trabajo. Lo uso para todo, para jugar, programar, editar
