@@ -190,7 +190,7 @@ keys normally do without having them a million kilometers away from my normal
 position. I've chosen to have the arrows vim style but you can see how useful
 this layer can be compared to the stardard way of using arrows.
 
-<center>![Numpad layer](/img/posts/ortholinear-keyboard/layer-4.png)</center>
+<center>![Movement layer](/img/posts/ortholinear-keyboard/layer-4.png)</center>
 
 ## Conclusion
 
