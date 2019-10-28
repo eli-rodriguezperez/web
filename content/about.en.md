@@ -17,6 +17,6 @@ You can also find me in several social networks listed below:
  - <https://www.twitter.com/elirp95>
  - <https://www.instagram.com/eli.seven7>
  - <https://github.com/eli-rodriguezperez>
- - <eli.rodriguezperez95@gmail.com>
+ - <eli@eli-rodriguez.com>
 
 This static webpage was generated using [Hugo](https://gohugo.io).

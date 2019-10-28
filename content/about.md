@@ -19,6 +19,6 @@ Puedes encontrar de interés mis siguientes enlaces:
 - <https://www.twitter.com/elirp95>
 - <https://www.instagram.com/eli.seven7>
 - <https://github.com/eli-rodriguezperez>
-- <eli.rodriguezperez95@gmail.com>
+- <eli@eli-rodriguez.com>
 
 Esta web estática está generada con [Hugo](https://gohugo.io).
