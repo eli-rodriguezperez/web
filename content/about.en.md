@@ -15,7 +15,7 @@ My Vim config can be found
 You can also find me in several social networks listed below:
 
  - <https://www.twitter.com/elirp95>
- - <https://www.instagram.com/eli.seven7>
+ - <https://www.instagram.com/belikeseven>
  - <https://github.com/eli-rodriguezperez>
  - <eli@eli-rodriguez.com>
 
