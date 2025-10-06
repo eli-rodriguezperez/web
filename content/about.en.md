@@ -1,9 +1,9 @@
 # Eli Rodríguez Pérez
 
-<center>![](/img/eli-portrait.png)</center>
+<center>![](/img/eli-portrait-2025.png)</center>
 
-My name is Eli, I'm a programmer and a trans and lesbian activist. My webpage
-will contain articles about activism and everything computers.
+My name is Eli, I'm a programmer and a nerd. My webpage
+will contain articles about my personal interests and everything computers.
 
 I'm interested in free software, emacs, vim, videogames...
 
@@ -14,7 +14,6 @@ My Vim config can be found
 
 You can also find me in several social networks listed below:
 
- - <https://www.twitter.com/elirp95>
  - <https://www.instagram.com/eli.seven7>
  - <https://github.com/eli-rodriguezperez>
  - <eli@eli-rodriguez.com>
