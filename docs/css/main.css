@@ -18,6 +18,14 @@ body.dark-theme {
     background-color: #1d2021;
 }
 
+table {
+    width: 100%;
+}
+
+td:nth-child(even) {
+    background-color: #121212;
+}
+
 ::selection {
     background: #ffe500; /* WebKit/Blink Browsers */
     color: #121212;

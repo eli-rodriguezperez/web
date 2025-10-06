@@ -18,6 +18,35 @@ body.dark-theme {
     background-color: #1d2021;
 }
 
+table {
+    width: 100%;
+}
+
+td, th {
+    padding: 0 8px;
+}
+
+.dark-theme td:nth-child(even) {
+    border-radius: 3px;
+    background-color: #252627;
+}
+
+td:nth-child(even) {
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.dark-theme th:nth-child(even) {
+    border-radius: 3px;
+    background-color: #252627;
+}
+
+th:nth-child(even) {
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+
 ::selection {
     background: #ffe500; /* WebKit/Blink Browsers */
     color: #121212;
