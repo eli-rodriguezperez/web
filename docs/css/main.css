@@ -22,9 +22,30 @@ table {
     width: 100%;
 }
 
-td:nth-child(even) {
-    background-color: #121212;
+td, th {
+    padding: 0 8px;
 }
+
+.dark-theme td:nth-child(even) {
+    border-radius: 3px;
+    background-color: #252627;
+}
+
+td:nth-child(even) {
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.dark-theme th:nth-child(even) {
+    border-radius: 3px;
+    background-color: #252627;
+}
+
+th:nth-child(even) {
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
 
 ::selection {
     background: #ffe500; /* WebKit/Blink Browsers */

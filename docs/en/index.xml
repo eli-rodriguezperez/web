@@ -6,10 +6,19 @@
     <description>Recent content on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 29 Sep 2019 15:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 12:25:13 +0000</lastBuildDate>
     
 	<atom:link href="https://eli-rodriguez.com/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data and conclusions on Green Blue decision making</title>
+      <link>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</link>
+      <pubDate>Mon, 06 Oct 2025 12:25:13 +0000</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</guid>
+      <description>Introduction Hello GB friends, I&amp;rsquo;m Seven. I wanted to write an article on probabilities for certain decisions that are common on Green Blue. I&amp;rsquo;ve been playing ramp decks (mainly DKP RB), a couple of sets, and with these kind of decks relying so much on chance to draw ramp and some key cards, I believe that is key to delegate certain decisions to probability. I like to think about a card game as you would for a chess game for the most part.</description>
+    </item>
     
     <item>
       <title>Using an even smaller keyboard</title>
@@ -49,11 +58,11 @@ I don&amp;rsquo;t want to make anyone feel bad with this post.</description>
       
       <guid>https://eli-rodriguez.com/en/about/</guid>
       <description>Eli Rodríguez Pérez 
-My name is Eli, I&amp;rsquo;m a programmer and a trans and lesbian activist. My webpage will contain articles about activism and everything computers.
+My name is Eli, I&amp;rsquo;m a programmer and a nerd. My webpage will contain articles about my personal interests and everything computers.
 I&amp;rsquo;m interested in free software, emacs, vim, videogames&amp;hellip;
 If you&amp;rsquo;re interested, you cand find a link to my Emacs config here. My Vim config can be found here.
 You can also find me in several social networks listed below:
- https://www.twitter.com/elirp95 https://www.instagram.com/belikeseven https://github.</description>
+ https://www.instagram.com/eli.seven7 https://github.com/eli-rodriguezperez eli@eli-rodriguez.com  This static webpage was generated using Hugo.</description>
     </item>
     
   </channel>

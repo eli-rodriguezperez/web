@@ -5,8 +5,424 @@
         <description>Recent content in Posts on Eli Rodríguez Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 29 Sep 2019 15:40:00 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 06 Oct 2025 12:25:13 +0000</lastBuildDate>
         <atom:link href="https://eli-rodriguez.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Data and conclusions on Green Blue decision making</title>
+            <link>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</link>
+            <pubDate>Mon, 06 Oct 2025 12:25:13 +0000</pubDate>
+            
+            <guid>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</guid>
+            <description>Introduction Hello GB friends, I&amp;rsquo;m Seven. I wanted to write an article on probabilities for certain decisions that are common on Green Blue. I&amp;rsquo;ve been playing ramp decks (mainly DKP RB), a couple of sets, and with these kind of decks relying so much on chance to draw ramp and some key cards, I believe that is key to delegate certain decisions to probability. I like to think about a card game as you would for a chess game for the most part.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Hello GB friends, I&rsquo;m Seven. I wanted to write an article on probabilities for certain decisions that are common on Green Blue. I&rsquo;ve been playing ramp decks (mainly DKP RB), a couple of sets, and with these kind of decks relying so much on chance to draw ramp and some key cards, I believe that is key to delegate certain decisions to probability. I like to think about a card game as you would for a chess game for the most part. There is an opening phase, in which you have to already have the lines memorized, because if you start improvising and your oponent knows the correct line you&rsquo;re probably already lost, or at least on a big disadvantage; A midgame, in which you try to develop your game plan; and a late game, in which a single decision is game deciding. In card games you don&rsquo;t always have the same pieces in hand, nor does your oponent, so a chess opening would more correctly relate to a matchup opening. After going on a tangent for a bit, what I want to say with this is the less decisions you have to improvise before entering midgame the most consistent you can make your gameplan and even convert more games into victories.</p>
+
+<p>For the most part I want to present the data and then my conclusions as to why I decide to Alter a certain way based on the data. This way you can see my interpretation of the data, which can obviously be wrong and I invite anybody that can refute it with data to do so. I tried to double check everything that I am writing here.</p>
+
+<h2 id="concept-glosary">Concept glosary</h2>
+
+<p>During this article I will use a shorthand for certain concepts that encompass groups of cards, I want to use this section to explain what those mean.</p>
+
+<ul>
+<li><em>Ramp</em>: <em>Ramp</em> would include tipo and sail. We would have 8 targets for a ramp card.</li>
+<li><em>Clara7</em>: Just big Clarabelle.</li>
+<li><em>Clara3</em>: 3 cost Clarabelle. 4 targets.</li>
+<li><em>Clara1</em>: 1 cost Clarabelle. 4 targets.</li>
+<li><em>SmolClara</em>: The combination of both <em>Clara3</em> and <em>Clara1</em>, for which we would have 8 targets.</li>
+<li><em>ClaraEnablers</em>: This would include both clarabelle shift targets and donald5. As this cards enable lines where you can cheat <em>Clara7</em>. We have 12 targets for this group. This group will serve as a baseline to calculate the probability of at least being able to cheat out clarabelle earlier than you would normally. Which IMO is the baseline to have a decent game. Not being able to do this normally means youre at a disadvantage, so we want to at least hit one of these.</li>
+<li><em>3UtS</em>: When I refer to running 3 targets for Under the Sea.</li>
+<li><em>4UtS</em>: When I refer to running 4 targets for Under the Sea.</li>
+</ul>
+
+<h2 id="altering-for-ramp">Altering for ramp</h2>
+
+<p>This has long been a discussion in the community, also for other ramp dependant decks. You normally throw everything away to have the best chance to draw back ramp after 7 new cards. The two cards that generated discussion as to why to Alter a different way were Pawpsicle and Develop your Brain. Which change the math around being able to draw the ramp we need after the Alter phase. Taking pawp out of the ecuation, there is another card that people run sometimes in GB, which is Bobby. Bobby doesn&rsquo;t exactly draw you a card but it lets you dig one card deeper. Develop allows us to dig two cards deeper.</p>
+
+<p>Keeping develop with no ramp has been the main question for x8 ramp blue decks for a while, and I was on the boat for throwing it because I thought the variance of not seeing that last extra card didn&rsquo;t compensate for the two cards you&rsquo;re seeing later, but I did the math, and it turns out it does. It&rsquo;s kinda stupid to argue about this decision, as the difference is so minuscule that most of the time it won&rsquo;t matter. But nonetheless, knowing that seeing two cards after shuffling is better than the extra chance that seeing 14 cards deep before shuffling gives is something that applies to most decks and is information that I will use looking forward.</p>
+
+<p>This data is taken from a script that a fellow GB player made for making simulations on the Alter phase and then two turns of play, to calculate the mean for how many times depending on the situation you&rsquo;re in you will draw ramp. I modified the script to run several simulations so that I could calculate Standard Deviation, to get a bit of context. The mean doesn&rsquo;t always tell the full story, but variance, in this case stdev gives us a look at the inconsistency over all those simulations.</p>
+
+<p>This stats are the result of a simulation where 100.000 players &ldquo;played&rdquo; 500 games with a determined way of playing if not finding ramp in the first seven cards. This takes into account all the different nuances that can occur, like throwing 7 can sometimes give you a develop, or throwing 6 but drawing into another develop. Even with all that the stats are clear. Even though that it&rsquo;s a stupidly small number, keeping develop is always the best, it even nets smaller variance. So in about 0.55 games every 500 OTP and 0.4 games OTD, you will not find ramp if you throw away your develop as opposed to keeping it, while also being a tiny bit less consistent. Without taking variance into consideration, which only improves the odds for keeping DyB.</p>
+
+<p>(script will be provided but not present in this article)</p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Mean</th>
+<th>Standard Deviation</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>OTP Throw 7</td>
+<td>92.46%</td>
+<td>1.187%</td>
+</tr>
+
+<tr>
+<td>OTP Keep DyB</td>
+<td>92.57%</td>
+<td>1.177%</td>
+</tr>
+
+<tr>
+<td>OTD Throw 7</td>
+<td>93.73%</td>
+<td>1.084%</td>
+</tr>
+
+<tr>
+<td>OTD Keep DyB</td>
+<td>93.81%</td>
+<td>1.081%</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="cow-math">Cow math</h2>
+
+<p>Having Clarabelle 7 on board, specially shifted on 5 ink is really important for GB, for this reason we do want to maximize the chances of enabling the shiftline, or at least, being able to play donald5 to be able to play Clara next and get value with maybe MKB or YW. This decision is critical, as we&rsquo;re going to see, taking an incorrect strategy in the Alter phase means you&rsquo;re not going to get <em>Clara7</em> on board as much as you want to. For this section and onwards, I will use hypergeometry to analyze the decisions. So we&rsquo;re talking probability, not statistics.</p>
+
+<h3 id="pre-alter-situations">Pre alter situations</h3>
+
+<h4 id="we-do-not-have-ramp-in-hand">We do not have ramp in hand</h4>
+
+<p>We&rsquo;re going to start with a hand where we do not have ramp bu we do see a <em>Clara7</em>. In this situation, we could think throwing 7 cards is the correct choice. Here we have to think if having <em>Clara7</em> on board is critical to the game plan, which on most matchups is. So we have two options, we throw everything, and hope to find ramp and <em>Clara7</em> back, or we keep the <em>Clara7</em> and throw everything else. Let&rsquo;s see how the probability changes with this two scenarios in mind.</p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Keep</td>
+<td>70.6%</td>
+</tr>
+
+<tr>
+<td>Throw</td>
+<td>64.5%</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Probability of drawing ramp if we keep Clara7</em></p>
+
+<p>Now, the probability of getting a <em>Clara7</em> back in hand if we throw one away is 35.2%. So the question is, do we think that even if we find ramp by throwing 7, which will make a difference in 6.1% of games, will result in a game worth playing, or will it be a nongame anyway in which we ramp into nothing and lose anyway. For me right now, I think 64.5% is still decent odds that I prefer to Keep the <em>Clara7</em> and make sure we have it. As we will see later, it&rsquo;s much easier to find a ClaraEnabler and at 64.5%, we have decent odds to have a normal gameplan if the ramp comes back, as opposed to possibly never being able to find a <em>Clara7</em> in time until it&rsquo;s too late after shuffling them back into the deck.</p>
+
+<p>====</p>
+
+<h4 id="we-do-have-ramp-in-hand">We do have ramp in hand</h4>
+
+<p>In this situation we already have the most important piece in hand, so let&rsquo;s see all the situations we can find ourselves in and see what probabilities we&rsquo;re playing with.</p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Clara7</em> alone</td>
+<td>39.1%</td>
+</tr>
+
+<tr>
+<td><em>Clara7</em> + <em>SmolClara</em></td>
+<td>23.2%</td>
+</tr>
+
+<tr>
+<td><em>Clara7</em> + ClaraEnabler</td>
+<td>29.6%</td>
+</tr>
+</tbody>
+</table>
+
+<p>_Probability of finding <em>Clara7</em> in combination with other cards while keeping ramp and throwing everything else_</p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Keep ramp + 1 <em>SmolClara</em></td>
+<td>33.1%</td>
+</tr>
+
+<tr>
+<td>Keep ramp + 2 <em>SmolClara</em></td>
+<td>27.6%</td>
+</tr>
+</tbody>
+</table>
+
+<p>_Probability of finding <em>Clara7</em> while keeping ramp and some _SmolClara<em>s</em></p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Any shift target</td>
+<td>56.7%</td>
+</tr>
+
+<tr>
+<td>A specific shift target</td>
+<td>33.6%</td>
+</tr>
+
+<tr>
+<td>ClaraEnabler</td>
+<td>73.1%</td>
+</tr>
+</tbody>
+</table>
+
+<p>_Probability of finding <em>Clara7</em> enablers if we keep ramp and <em>Clara7</em> in hand_</p>
+
+<p>====</p>
+
+<h3 id="post-alter-situations">Post alter situations</h3>
+
+<h4 id="we-have-no-clara7-in-hand">We have no Clara7 in hand</h4>
+
+<p>Here we&rsquo;re analyzing the probability of drawing into <em>Clara7</em> before the shift turn with five inks. Having a minimum of three draws OTP and a maximum of 8 with a combination of being OTP while playing Bobby, Sail and develop.</p>
+
+<table>
+<thead>
+<tr>
+<th>Number of draws</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>3</td>
+<td>21.4%</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>27.6%</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>33.6%</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>39.1%</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>44.0%</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>49.1%</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Probability of drawing Clara7 with each consecutive draw</em></p>
+
+<h4 id="we-have-clara7-in-hand">We have Clara7 in hand</h4>
+
+<p>In this situation we&rsquo;re looking to, while having <em>Clara7</em> in hand, being able to play her before turn 6.</p>
+
+<table>
+<thead>
+<tr>
+<th>Number of draws</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2</td>
+<td>28.2%</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>39.4%</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>49.1%</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>57.4%</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>64.5%</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>70.6%</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>75.7%</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Probability of drawing a SmolClara before being able to play her to be shifted with 5 ink</em></p>
+
+<table>
+<thead>
+<tr>
+<th>Number of draws</th>
+<th>Odds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>3</td>
+<td>54.5%</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>65.4%</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>73.9%</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>80.4%</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>85.4%</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>89.2%</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Probability of drawing a ClaraEnabler to at least be able to play Clara7 earlier than usual</em></p>
+
+<h4 id="under-the-sea-after-the-alter-phase">Under the Sea after the alter phase</h4>
+
+<p>In this section I want to analyze some common lines in which we don&rsquo;t keep UtS against Dogs while still being able to sing it later. Ranging from some of the least common to a bit less optimal one. There are a million situations we could calculate here, but I decided on this 5 to have a general idea of the differences between <em>3UtS</em> and <em>4UtS</em>, which I think are enough to make conclusions.</p>
+
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th><em>3UtS</em>/<em>4UtS</em></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Line 1*</td>
+<td>11.3%/14.7%</td>
+</tr>
+
+<tr>
+<td>Line 2*</td>
+<td>16.6%/21.4%</td>
+</tr>
+
+<tr>
+<td>Line 3*</td>
+<td>40.1%/49.1%</td>
+</tr>
+
+<tr>
+<td>Line 4*</td>
+<td>48.1%/57.9%</td>
+</tr>
+
+<tr>
+<td>Line 5*</td>
+<td>31.3%/39.1%</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Line 1</em>: Clara&gt;Tipo&gt;Baymax 2 cards deep OTP</p>
+
+<p><em>Line 2</em>: Bobby&gt;Tipo&gt;Baymax 3 cards deep OTP with Bobby or OTD organically</p>
+
+<p><em>Line 3</em>: Clara&gt;Tipo&gt;Baymax&gt;Visions 8 cards deep OTP</p>
+
+<p><em>Line 4</em>: Clara&gt;Tipo&gt;Baymax&gt;Visions&gt;DyB 10 cards deep OTP</p>
+
+<p><em>Line 5</em>: Tipo&gt;Donald4&gt;Donald5 6 cards deep OTP</p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>After presenting all this data, I want to elaborate on the decisions I am making based on it.</p>
+
+<p>First of all, talking <em>Develop your Brain</em>, we know that looking at two cards after shuffling is better in terms of consistency and variance to seeing that 13th or 14th card. So what I conclude is that I am always going to keep a develop in hand, either without ramp, or in combination with ramp, to get closer to that <em>Clara7</em>. It also improves your chances of drawing into your next wanted card which could be <em>UtS</em> or the <em>Basil7</em>, <em>Hades</em> and the likes.</p>
+
+<p>When looking into getting <em>Clara7</em> and her enablers, I conclude that If I already have a <em>Clara7</em> in hand, even with no ramp, I prefer to keep her over the possibility of never getting her back again. There are alternative lines where you can save a matchup with no <em>Clara7</em> on board, but in general I want to avoid those at all costs as when you don&rsquo;t have the <em>Clara7</em>, the shiftlines can become completely useless, essentially having 12x <em>Tipo</em> in your deck which you don&rsquo;t want to draw into.</p>
+
+<p>Having no <em>Clara7</em> in hand leaves me with no options but never keeping shiftlines in hand unless it&rsquo;s <em>Clara3</em> OTP, which trades a bit of variance of having less chances to get <em>Clara7</em>, with the option of having the best shiftline and also drawing that extra card with her, and possibly getting that shift anyway. I would never do this if I&rsquo;m OTD or in a matchup where I know <em>Clara3</em> is not drawing a card. The chances of getting a <em>ClaraEnabler</em> after shuffling them back in is still much much better than the chances of getting <em>Clara7</em> in hand, so I think it&rsquo;s always better to throw them away.</p>
+
+<p>With <em>UtS</em> numbers, in metas where singing it is a necessity to win a big amount of your expected matchups, having 4 copies in your deck is a must. Specially because having to ink one with <em>Tipo</em> or losing it with an opposing <em>Ursula2</em> can be game losing.</p>
+
+<p>Also in general, being able to sneak in a couple of <em>DyB</em> to fill the curve over the game makes your wanted draws much more likely and I will want to run 4 copies of them always, specially in decks with lower card quality and almost no cards that replace themselves, in this case GB.</p>
+
+<p>And with this, this article comes to an end. After paying much more attention to probability and Alters, I&rsquo;ve felt like I&rsquo;m having much more consistent games. Now I&rsquo;m not a person that likes to grind 500 games per set, but I&rsquo;ve getting good records with my last 13 games being 11-2 in the site we must not name Bo3 format, with lost games being nongames with no ramp or having unlucky games against aggro decks. I&rsquo;ve been able to climb up to 1480MMR pre Bologna which sadly I was not able to attend. I definitely feel like this is THE deck for me going forward. I have no doubt that it has a huge floor to pilot it correctly and a huge ceiling which we can try to maximize paying attention to probability and statistics.</p>
+
+<p>I hope you have enjoyed this read, have a great Lorcana Set Championship season,</p>
+
+<p>Seven.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Using an even smaller keyboard</title>

@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eli-rodriguez.com/en/</loc>
-    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -19,8 +24,20 @@
   </url>
   
   <url>
+    <loc>https://eli-rodriguez.com/en/tags/gb/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/green-blue/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://eli-rodriguez.com/en/posts/</loc>
-    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -36,7 +53,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/en/tags/</loc>
-    <lastmod>2019-09-29T15:40:00+02:00</lastmod>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +65,12 @@
                 hreflang="en"
                 href="https://eli-rodriguez.com/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/lorcana/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
