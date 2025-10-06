@@ -63,10 +63,10 @@ Having Clarabelle 7 on board, specially shifted on 5 ink is really important for
 We're going to start with a hand where we do not have ramp but we do see a _Clara7_. In this situation, we could think throwing 7 cards is the correct choice. Here we have to think if having _Clara7_ on board is critical to the game plan, which on most matchups is. So we have two options, we throw everything, and hope to find ramp and _Clara7_ back, or we keep the _Clara7_ and throw everything else. Let's see how the probability changes with this two scenarios in mind.
 
 
-| Situation | Odds  |
-|-----------|-------|
-| Keep      | 70.6% |
-| Throw     | 64.5% |
+| Situation          | Odds of getting ramp  |
+|--------------------|-----------------------|
+| Keep _Clara7_      | 70.6%                 |
+| Throw _Clara7_     | 64.5%                 |
 _Probability of drawing ramp if we keep Clara7_
 
 Now, the probability of getting a _Clara7_ back in hand if we throw one away is 35.2%. So the question is, do we think that even if we find ramp by throwing 7, which will make a difference in 6.1% of games, will result in a game worth playing, or will it be a nongame anyway in which we ramp into nothing and lose anyway. For me right now, I think 64.5% is still decent odds that I prefer to Keep the _Clara7_ and make sure we have it. As we will see later, it's much easier to find a _ClaraEnabler_ and at 64.5%, we have decent odds to have a normal gameplan if the ramp comes back, as opposed to possibly never being able to find a _Clara7_ in time until it's too late after shuffling them back into the deck.

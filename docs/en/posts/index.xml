@@ -106,18 +106,18 @@ I like to think about a card game as you would for a chess game for the most par
 <thead>
 <tr>
 <th>Situation</th>
-<th>Odds</th>
+<th>Odds of getting ramp</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>Keep</td>
+<td>Keep <em>Clara7</em></td>
 <td>70.6%</td>
 </tr>
 
 <tr>
-<td>Throw</td>
+<td>Throw <em>Clara7</em></td>
 <td>64.5%</td>
 </tr>
 </tbody>
