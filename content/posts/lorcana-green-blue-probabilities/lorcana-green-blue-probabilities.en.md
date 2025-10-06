@@ -12,15 +12,18 @@ tags:
 
 ## Introduction
 
-Hello GB friends, I'm Seven. I wanted to write an article on probabilities for certain decisions that are common on Green Blue. I've been playing ramp decks (mainly DKP RB), a couple of sets, and with these kind of decks relying so much on chance to draw ramp and some key cards, I believe that is key to delegate certain decisions to probability. I like to think about a card game as you would for a chess game for the most part. There is an opening phase, in which you have to already have the lines memorized, because if you start improvising and your oponent knows the correct line you're probably already lost, or at least on a big disadvantage; A midgame, in which you try to develop your game plan; and a late game, in which a single decision is game deciding. In card games you don't always have the same pieces in hand, nor does your oponent, so a chess opening would more correctly relate to a matchup opening. After going on a tangent for a bit, what I want to say with this is the less decisions you have to improvise before entering midgame the most consistent you can make your gameplan and even convert more games into victories.
+Hello GB friends, I'm Seven. I wanted to write an article on probabilities for certain decisions that are common in Green Blue. I've been playing ramp decks (mainly DKP RB), a couple of sets, and with these kind of decks relying so much on chance to draw ramp and some key cards, I believe that is key to delegate certain decisions to probability.
 
-For the most part I want to present the data and then my conclusions as to why I decide to Alter a certain way based on the data. This way you can see my interpretation of the data, which can obviously be wrong and I invite anybody that can refute it with data to do so. I tried to double check everything that I am writing here.
+I like to think about a card game as you would for a chess game for the most part. There is an opening phase, in which you have to already have the lines memorized, because if you start improvising and your oponent knows the correct line you're probably already lost, or at least on a big disadvantage; A midgame, in which you try to develop your game plan; and a late game, in which a single decision is game deciding. In card games you don't always have the same pieces in hand, nor does your oponent, so a chess opening would more correctly relate to a matchup opening. This is really important as we want to consistently have the correct pieces for the right matchups. What I want to say with this is the less decisions you have to make before entering midgame, the most consistent you can make your gameplan. This is why the correct Altering decisions can make us have better hands and convert more games into victories.
+
+For the most part I just want to present the data and then my conclusions as to why I decide to Alter a certain way based on the data in the end. This way you can see my interpretation of the data, which can obviously be wrong, and I invite anybody that can refute it with data to do so. I tried to double check everything that I am writing here.
 
 ## Concept glosary
 
 During this article I will use a shorthand for certain concepts that encompass groups of cards, I want to use this section to explain what those mean.
 
 - _Ramp_: _Ramp_ would include tipo and sail. We would have 8 targets for a ramp card.
+- _DyB_: _Develop your Brain_.
 - _Clara7_: Just big Clarabelle.
 - _Clara3_: 3 cost Clarabelle. 4 targets.
 - _Clara1_: 1 cost Clarabelle. 4 targets.
@@ -31,13 +34,13 @@ During this article I will use a shorthand for certain concepts that encompass g
 
 ## Altering for ramp
 
-This has long been a discussion in the community, also for other ramp dependant decks. You normally throw everything away to have the best chance to draw back ramp after 7 new cards. The two cards that generated discussion as to why to Alter a different way were Pawpsicle and Develop your Brain. Which change the math around being able to draw the ramp we need after the Alter phase. Taking pawp out of the ecuation, there is another card that people run sometimes in GB, which is Bobby. Bobby doesn't exactly draw you a card but it lets you dig one card deeper. Develop allows us to dig two cards deeper.
+This has long been a discussion in the community, also for other ramp dependant decks. You normally throw everything away to have the best chance to draw back ramp after 7 new cards. The two cards that generated discussion as to why to Alter a different way were _Pawpsicle_ and _Develop your Brain_. Which change the math around being able to draw the ramp we need after the Alter phase. Taking pawp out of the ecuation, there is another card that people run sometimes in GB, which is _Bobby_. _Bobby_ doesn't exactly draw you a card, but it lets you dig one card deeper. Develop allows us to dig two cards deeper.
 
-Keeping develop with no ramp has been the main question for x8 ramp blue decks for a while, and I was on the boat for throwing it because I thought the variance of not seeing that last extra card didn't compensate for the two cards you're seeing later, but I did the math, and it turns out it does. It's kinda stupid to argue about this decision, as the difference is so minuscule that most of the time it won't matter. But nonetheless, knowing that seeing two cards after shuffling is better than the extra chance that seeing 14 cards deep before shuffling gives is something that applies to most decks and is information that I will use looking forward.
+Keeping _DyB_ with no ramp has been the main question for x8 ramp blue decks for a while, and I was on the boat for throwing it because I thought the variance of not seeing that last extra card didn't compensate for the two extra cards you're seeing later, but I did the math, and it turns out it does. It's kinda stupid to argue about this decision, as the difference is so minuscule that most of the time it won't matter. But nonetheless, knowing that seeing two cards after shuffling is better than the extra chance that seeing 14 cards deep before shuffling gives is something that applies to most decks and is information that I will use looking forward.
 
 This data is taken from a script that a fellow GB player made for making simulations on the Alter phase and then two turns of play, to calculate the mean for how many times depending on the situation you're in you will draw ramp. I modified the script to run several simulations so that I could calculate Standard Deviation, to get a bit of context. The mean doesn't always tell the full story, but variance, in this case stdev gives us a look at the inconsistency over all those simulations.
 
-This stats are the result of a simulation where 100.000 players "played" 500 games with a determined way of playing if not finding ramp in the first seven cards. This takes into account all the different nuances that can occur, like throwing 7 can sometimes give you a develop, or throwing 6 but drawing into another develop. Even with all that the stats are clear. Even though that it's a stupidly small number, keeping develop is always the best, it even nets smaller variance. So in about 0.55 games every 500 OTP and 0.4 games OTD, you will not find ramp if you throw away your develop as opposed to keeping it, while also being a tiny bit less consistent. Without taking variance into consideration, which only improves the odds for keeping DyB.
+This stats are the result of a simulation where 100.000 players "played" 500 games with a determined way of playing if not finding ramp in the first seven cards. This takes into account all the different nuances that can occur, like throwing 7 can sometimes result in having a _DyB_, or throwing 6 but drawing into another _DyB_. Even with all that the stats are clear. Even though that it's a stupidly small number, keeping _DyB_ is always the best, it even nets smaller variance. So in about 0.55 games every 500 OTP and 0.4 games OTD, you will not find ramp if you throw away your develop as opposed to keeping it, while also being a tiny bit less consistent. Without taking variance into consideration, which only improves the odds for keeping _DyB_.
 
 (script will be provided but not present in this article)
 
@@ -47,6 +50,7 @@ This stats are the result of a simulation where 100.000 players "played" 500 gam
 | OTP Keep DyB | 92.57% | 1.177%             |
 | OTD Throw 7  | 93.73% | 1.084%             |
 | OTD Keep DyB | 93.81% | 1.081%             |
+_Statistics of the simulation in which we calculate how many times over the simulations we're getting ramp back with each strategy_
 
 ## Cow math
 
@@ -56,7 +60,7 @@ Having Clarabelle 7 on board, specially shifted on 5 ink is really important for
 
 #### We do not have ramp in hand
 
-We're going to start with a hand where we do not have ramp bu we do see a _Clara7_. In this situation, we could think throwing 7 cards is the correct choice. Here we have to think if having _Clara7_ on board is critical to the game plan, which on most matchups is. So we have two options, we throw everything, and hope to find ramp and _Clara7_ back, or we keep the _Clara7_ and throw everything else. Let's see how the probability changes with this two scenarios in mind.
+We're going to start with a hand where we do not have ramp but we do see a _Clara7_. In this situation, we could think throwing 7 cards is the correct choice. Here we have to think if having _Clara7_ on board is critical to the game plan, which on most matchups is. So we have two options, we throw everything, and hope to find ramp and _Clara7_ back, or we keep the _Clara7_ and throw everything else. Let's see how the probability changes with this two scenarios in mind.
 
 
 | Situation | Odds  |
@@ -99,7 +103,7 @@ _Probability of finding _Clara7_ enablers if we keep ramp and _Clara7_ in hand_
 
 #### We have no Clara7 in hand
 
-Here we're analyzing the probability of drawing into _Clara7_ before the shift turn with five inks. Having a minimum of three draws OTP and a maximum of 8 with a combination of being OTP while playing Bobby, Sail and develop.
+Here we're analyzing the probability of drawing into _Clara7_ before the shift turn with five inks. Having a minimum of three draws OTP and a maximum of 8 with a combination of being OTD while playing _Bobby_, _Sail_ and _DyB_.
 
 | Number of draws | Odds  |
 |-----------------|-------|
@@ -163,18 +167,18 @@ _Line 5_: Tipo>Donald4>Donald5 6 cards deep OTP
 
 After presenting all this data, I want to elaborate on the decisions I am making based on it.
 
-First of all, talking _Develop your Brain_, we know that looking at two cards after shuffling is better in terms of consistency and variance to seeing that 13th or 14th card. So what I conclude is that I am always going to keep a develop in hand, either without ramp, or in combination with ramp, to get closer to that _Clara7_. It also improves your chances of drawing into your next wanted card which could be _UtS_ or the _Basil7_, _Hades_ and the likes.
+First of all, talking _Develop your Brain_, we know that looking at two cards after shuffling is better in terms of consistency and variance to seeing that 13th or 14th card. So what I conclude is that I am always going to keep a _DyB_ in hand, either without ramp, or in combination with ramp, to get closer to that _Clara7_. It also improves your chances of drawing into your next wanted card which could be _UtS_ or the _Basil7_, _Hades_ and the likes.
 
-When looking into getting _Clara7_ and her enablers, I conclude that If I already have a _Clara7_ in hand, even with no ramp, I prefer to keep her over the possibility of never getting her back again. There are alternative lines where you can save a matchup with no _Clara7_ on board, but in general I want to avoid those at all costs as when you don't have the _Clara7_, the shiftlines can become completely useless, essentially having 12x _Tipo_ in your deck which you don't want to draw into.
+When looking into getting _Clara7_ and her enablers, I conclude that If I already have a _Clara7_ in hand, even with no ramp, I prefer to keep her over the possibility of never getting her back again. There are alternative lines where you can save a matchup with no _Clara7_ on board, but in general I want to avoid those at all costs as when you don't have the _Clara7_, the shiftlines can become completely useless, essentially having 12x _Tipo_ in your deck which you don't want to draw into but you're a lot more likely to do so.
 
-Having no _Clara7_ in hand leaves me with no options but never keeping shiftlines in hand unless it's _Clara3_ OTP, which trades a bit of variance of having less chances to get _Clara7_, with the option of having the best shiftline and also drawing that extra card with her, and possibly getting that shift anyway. I would never do this if I'm OTD or in a matchup where I know _Clara3_ is not drawing a card. The chances of getting a _ClaraEnabler_ after shuffling them back in is still much much better than the chances of getting _Clara7_ in hand, so I think it's always better to throw them away.
+Having no _Clara7_ in hand leaves me with no options but never keeping shiftlines in hand unless it's _Clara3_ OTP, which trades a bit of variance of having less chances to get _Clara7_, with the option of having the best shiftline and also drawing that extra card with her, and possibly getting that shift anyway. I would never do this if I'm OTD or in a matchup where I know _Clara3_ is not drawing a card. The chances of getting a _ClaraEnabler_ after shuffling them back in is still much much better than the chances of getting _Clara7_ in hand, so I think based on the data that it's always better to throw them away.
 
 With _UtS_ numbers, in metas where singing it is a necessity to win a big amount of your expected matchups, having 4 copies in your deck is a must. Specially because having to ink one with _Tipo_ or losing it with an opposing _Ursula2_ can be game losing.
 
 Also in general, being able to sneak in a couple of _DyB_ to fill the curve over the game makes your wanted draws much more likely and I will want to run 4 copies of them always, specially in decks with lower card quality and almost no cards that replace themselves, in this case GB.
 
-And with this, this article comes to an end. After paying much more attention to probability and Alters, I've felt like I'm having much more consistent games. Now I'm not a person that likes to grind 500 games per set, but I've getting good records with my last 13 games being 11-2 in the site we must not name Bo3 format, with lost games being nongames with no ramp or having unlucky games against aggro decks. I've been able to climb up to 1480MMR pre Bologna which sadly I was not able to attend. I definitely feel like this is THE deck for me going forward. I have no doubt that it has a huge floor to pilot it correctly and a huge ceiling which we can try to maximize paying attention to probability and statistics.
+And with this, this article comes to an end. After paying much more attention to probability and Alters, I've felt like I'm having much more consistent games. Now I'm not a person that likes to grind 500 games per set, but I've getting good records with my last 13 games being 11-2 in the site we must not name in the Bo3 ladder, with lost games being nongames with no ramp or having unlucky games against aggro decks. I've been able to climb up to 1480MMR pre Bologna which sadly I was not able to attend. I definitely feel like this is THE deck for me going forward. I have no doubt that it has a huge floor to pilot it correctly and a huge ceiling which we can try to maximize paying attention to probability and statistics, and it can only improve if we get better cards printed.
 
-I hope you have enjoyed this read, have a great Lorcana Set Championship season,
+I hope you have enjoyed this read and have a great Lorcana Set Championship season,
 
 Seven.
