@@ -69,7 +69,7 @@ We're going to start with a hand where we do not have ramp but we do see a _Clar
 | Throw     | 64.5% |
 _Probability of drawing ramp if we keep Clara7_
 
-Now, the probability of getting a _Clara7_ back in hand if we throw one away is 35.2%. So the question is, do we think that even if we find ramp by throwing 7, which will make a difference in 6.1% of games, will result in a game worth playing, or will it be a nongame anyway in which we ramp into nothing and lose anyway. For me right now, I think 64.5% is still decent odds that I prefer to Keep the _Clara7_ and make sure we have it. As we will see later, it's much easier to find a ClaraEnabler and at 64.5%, we have decent odds to have a normal gameplan if the ramp comes back, as opposed to possibly never being able to find a _Clara7_ in time until it's too late after shuffling them back into the deck.
+Now, the probability of getting a _Clara7_ back in hand if we throw one away is 35.2%. So the question is, do we think that even if we find ramp by throwing 7, which will make a difference in 6.1% of games, will result in a game worth playing, or will it be a nongame anyway in which we ramp into nothing and lose anyway. For me right now, I think 64.5% is still decent odds that I prefer to Keep the _Clara7_ and make sure we have it. As we will see later, it's much easier to find a _ClaraEnabler_ and at 64.5%, we have decent odds to have a normal gameplan if the ramp comes back, as opposed to possibly never being able to find a _Clara7_ in time until it's too late after shuffling them back into the deck.
 
 ====
 
@@ -81,21 +81,21 @@ In this situation we already have the most important piece in hand, so let's see
 |-----------------------|-------|
 | _Clara7_ alone          | 39.1% |
 | _Clara7_ + _SmolClara_    | 23.2% |
-| _Clara7_ + ClaraEnabler | 29.6% |
-_Probability of finding _Clara7_ in combination with other cards while keeping ramp and throwing everything else_
+| _Clara7_ + _ClaraEnabler_ | 29.6% |
+_Probability of finding Clara7 in combination with other cards while keeping ramp and throwing everything else_
 
 | Situation               | Odds  |
 |-------------------------|-------|
 | Keep ramp + 1 _SmolClara_ | 33.1% |
 | Keep ramp + 2 _SmolClara_ | 27.6% |
-_Probability of finding _Clara7_ while keeping ramp and some _SmolClara_s_
+_Probability of finding Clara7 while keeping ramp and some SmolClaras_
 
 | Situation               | Odds  |
 |-------------------------|-------|
 | Any shift target        | 56.7% |
 | A specific shift target | 33.6% |
 | ClaraEnabler            | 73.1% |
-_Probability of finding _Clara7_ enablers if we keep ramp and _Clara7_ in hand_
+_Probability of finding Clara7 enablers if we keep ramp and Clara7 in hand_
 
 ====
 
