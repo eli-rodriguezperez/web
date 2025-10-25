@@ -17,7 +17,7 @@ mi configuración de
 
 Puedes encontrar de interés mis siguientes enlaces:
 
-- <https://www.instagram.com/eli.seven7>
+- <https://www.instagram.com/belikeseven>
 - <https://github.com/eli-rodriguezperez>
 - <eli@eli-rodriguez.com>
 
