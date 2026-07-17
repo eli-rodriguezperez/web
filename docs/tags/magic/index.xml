@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>magic on Eli Rodríguez Pérez</title>
+    <link>https://eli-rodriguez.com/tags/magic/</link>
+    <description>Recent content in magic on Eli Rodríguez Pérez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 16 Jul 2026 18:34:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://eli-rodriguez.com/tags/magic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Secuenciando tu turno</title>
+      <link>https://eli-rodriguez.com/posts/secuenciando-tu-turno/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:11 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/posts/secuenciando-tu-turno/</guid>
+      <description>El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente.</description>
+    </item>
+    
+  </channel>
+</rss>

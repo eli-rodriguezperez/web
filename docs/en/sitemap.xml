@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://eli-rodriguez.com/en/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -24,20 +19,23 @@
   </url>
   
   <url>
-    <loc>https://eli-rodriguez.com/en/tags/gb/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eli-rodriguez.com/en/tags/green-blue/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/posts/secuenciando-tu-turno/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/"
+                />
   </url>
   
   <url>
     <loc>https://eli-rodriguez.com/en/posts/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -53,7 +51,7 @@
   
   <url>
     <loc>https://eli-rodriguez.com/en/tags/</loc>
-    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -68,7 +66,98 @@
   </url>
   
   <url>
+    <loc>https://eli-rodriguez.com/en/tags/game-theory/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/game-theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/game-theory/"
+                />
+  </url>
+  
+  <url>
     <loc>https://eli-rodriguez.com/en/tags/lorcana/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/lorcana/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/lorcana/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/magic/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/magic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/magic/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/riftbound/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/riftbound/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/riftbound/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/tcg/</loc>
+    <lastmod>2026-07-16T18:34:04+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eli-rodriguez.com/tags/tcg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eli-rodriguez.com/en/tags/tcg/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/gb/</loc>
+    <lastmod>2025-10-06T12:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eli-rodriguez.com/en/tags/green-blue/</loc>
     <lastmod>2025-10-06T12:25:13+00:00</lastmod>
     <priority>0</priority>
   </url>
