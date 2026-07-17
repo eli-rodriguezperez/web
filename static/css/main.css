@@ -9,6 +9,9 @@ code {
     padding: 0px 2px;
     border-radius: 2px;
 }
+h5, h6 {
+    font-size: 1em;
+}
 html .post {
     text-align: justify;
 }

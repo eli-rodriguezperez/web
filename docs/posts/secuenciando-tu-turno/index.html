@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Eli Rodríguez Pérez ">
+<meta name="description"
+    content="El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente." />
+<meta name="keywords" content="programming vim emacs lgbt trans programación lgtb" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://eli-rodriguez.com/posts/secuenciando-tu-turno/" />
+
+
+<title>
+    
+    Secuenciando tu turno :: Eli Rodríguez Pérez  — Blog personal
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://eli-rodriguez.com/main.min.476fa624d215b87a3d209acf74fe1053f07b62ca430ee3fbaa46e41f075708e5.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="https://eli-rodriguez.com/css/main.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://eli-rodriguez.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eli-rodriguez.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eli-rodriguez.com/favicon-16x16.png">
+<link rel="manifest" href="https://eli-rodriguez.com/site.webmanifest">
+<link rel="mask-icon" href="https://eli-rodriguez.com/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://eli-rodriguez.com/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="Secuenciando tu turno">
+<meta itemprop="description" content="El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente.">
+
+
+<meta itemprop="datePublished" content="2026-07-16T18:34:11&#43;02:00" />
+<meta itemprop="dateModified" content="2026-07-16T18:34:11&#43;02:00" />
+<meta itemprop="wordCount" content="1667">
+
+
+
+<meta itemprop="keywords" content="lorcana,riftbound,magic,game theory,tcg," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://eli-rodriguez.com/static/img/eli-portrait-2025.png"/>
+
+<meta name="twitter:title" content="Secuenciando tu turno"/>
+<meta name="twitter:description" content="El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente."/>
+
+
+
+
+<meta property="article:published_time" content="2026-07-16 18:34:11 &#43;0200 CEST" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://eli-rodriguez.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">/home/eli</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://eli-rodriguez.com/about/">About me</a></li><li><a href="https://eli-rodriguez.com/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>8 minutos
+
+            
+                | También disponible en
+                
+                    <a href="https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/"><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a>
+                
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://eli-rodriguez.com/posts/secuenciando-tu-turno/">Secuenciando tu turno</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<p>El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente.</p>
+
+<p>La gestión del tiempo es una de las habilidades fundamentales que aplican a muchísimos juegos. Aplicado a los juegos de cartas, solemos jugar partidas de alrededor de una hora. En ese tiempo, tenemos que ser capaces de jugar hasta un máximo de 3 partidas, que requieren que ambos jugadores utilicen su tiempo de manera eficiente. Hay muchísimas cosas de las que podemos hablar sobre todo lo que conlleva la gestión del tiempo, pero vamos a dejarlo para otro artículo. De momento, vamos a decir que mejorar el secuenciado de nuestro turno nos puede llevar a tomar mejores decisiones en la misma cantidad de tiempo que utilizabamos antes. Esto puede ayudarnos a empatar menos por tiempo, prevenir derrotas por ir demasiado rápido u olvidarnos de ejecutar correctamente decisiones estratégicas del mazo.</p>
+
+<h3 id="desarrollando-un-plan-de-secuenciado-de-turno">Desarrollando un plan de secuenciado de turno</h3>
+
+<p>Un plan de secuenciado de turno nos puede ayudar a aplicar el conocimiento que tenemos del juego de una manera más estructurada. Si como yo, te cuesta mantener la concentración durante torneos es buena idea internalizar el proceso de planteamiento de los turnos. La idea no es que contenga información de cómo jugar en sí, si no preguntas que nos van a guiar a llegar a las soluciones correctas en un orden más óptimo. También viene muy bien para volver a esas partidas en las que te distraes y no sabes cómo volver.</p>
+
+<h4 id="alter">Alter</h4>
+
+<p>Antes:</p>
+
+<ul>
+<li>Estoy OTP u OTD?</li>
+<li>Qué está jugando tu oponente? Cuál es su plan de partida contra ti?</li>
+<li>Cuales son las cartas clave para el matchup?</li>
+<li>Tienes que hacer un alter agresivo?</li>
+</ul>
+
+<p>Después:</p>
+
+<ul>
+<li>Cuál es tu estrategia de partida?</li>
+<li>Piensa en subconjuntos de cartas que vas a tintar y jugar cada turno.</li>
+</ul>
+
+<h4 id="tu-turno">Tu turno</h4>
+
+<ol>
+<li>Ready</li>
+<li>Set: Hay mazos que requieren que muevas el planteamiento de tu turno aquí. Intenta generar el hábito durante el testeo. Recuerda que en torneos puedes poner un token encima del mazo para acordarte de pensar antes de robar. No pueden ser dados.</li>
+<li>Draw</li>
+</ol>
+
+<p>En este punto tu turno ya ha empezado, es buena idea generar el hábito de pensar aquí. Algunos planteamientos y preguntas cambiarán a lo largo de la partida, ya que normalmente tienes que pensar en cosas diferentes durante la apertura, mitad de partida y final de partida.</p>
+
+<h5 id="entendiendo-el-estado-de-la-partida">Entendiendo el estado de la partida</h5>
+
+<p>Aquí es importante detectar cuál es el estado actual de la partida. No solamente si estás en apertura, mitad de partida o final de partida si no diferentes subplanes que el mazo pueda tener. Esto nos puede ayudar a filtar cuestiones que no aplican actualmente y enfocarnos en las que realmente importan.</p>
+
+<ol>
+<li>En qué fase te encuentras?</li>
+<li>Tienes el control del tempo?</li>
+<li>Estas en medio de ejecutar algún plan?</li>
+</ol>
+
+<h5 id="fase-de-apertura">Fase de apertura</h5>
+
+<ul>
+<li>Cuál es tu plan de apertura actual?</li>
+<li>Cómo puedes tintar correctamente para poder seguir ejecutando tu plan de apertura?</li>
+<li>Cuál es el plan de apertura de tu oponente?</li>
+<li>Planteate si tienes que cambiar tu plan de apetura.</li>
+</ul>
+
+<h5 id="planeando-el-turno-a-mitad-de-partida">Planeando el turno a mitad de partida</h5>
+
+<p>Antes de tomar cualquier decisión, pon tus cartas a un lado y piensa. Nada es obvio y debes considerar todas las opciones posibles. A veces internalizamos jugadas &ldquo;obvias&rdquo; que situacionalmente son malas o nos pueden llevar a no tener recursos para jugar otras cartas, como activar ciertos triggers necesarios para mantenerte en la partida.</p>
+
+<p>Piensa en cómo cada jugada afecta tus turnos futuros y los del oponente. Por ejemplo:</p>
+
+<ol>
+<li>Piensa en lo que tu oponente puede hacer el siguiente turno.</li>
+<li>Es necesario que juegues alrededor de algo? Te lo puedes permitir? Eres capaz de ganar la partida después de jugar alrededor de esa carta o combo?</li>
+<li>Piensa en qué ocurriría si sigues diferentes lineas en profundidad.</li>
+<li>Si alguna linea requiere de información oculta como cartas en el mazo, piensa en las probabilidades. Si ves alguna carta específica cambia eso el planteamiento de tu turno?</li>
+<li>Toma una decisión informada, no intuitiva en la medida de lo posible.</li>
+<li>Deja a un lado tinta qu epuedas necesitar, si no quieres cometer el error de utilizar tinta que necesitabas para jugar un barremesa, removal&hellip; Esto no tiene por qué dar información extra si lo haces constantemente, incluso puedes llegar a utilizarlo a tu favor para engañar a tu oponente.</li>
+</ol>
+
+<h5 id="ejecutando-el-plan-de-turno">Ejecutando el plan de turno</h5>
+
+<ol>
+<li>Primero de todo tienes que descartar la incertidumbre. El secuenciado es muy importante en los juegos de cartas ya que todo pasa por tener la carta que necesitas en el momento correcto. Roba cartas, fuerza a tu oponente a revelar información relevante, por ejemplo un trigger de &ldquo;Emerald Chromicon&rdquo;, esencialmente cualquier información que pueda requerir cambiar tu plan de turno o ajustarlo. El secuenciado es otro tema que da para un post larguísimo. Alguna información la podemos inferir ya que solo tiene una jugada óptima y aquí si podemos asumir, si tiramos &ldquo;Be King Undisputed&rdquo; a un Tipo y un Milo Thatch con ward que lorea de 3, pues en este caso no hay otra posibilidad. Antes he comentado que no debemos asumir nada, lo que sí tienes que asumir es que tu oponente va a jugar óptimamente y solo ignorarlo si no nos podemos permitir jugar alrededor de ello.</li>
+<li>Una vez hemos descartado toda la incertidumbre, reevalua tu plan anterior y ajústalo. El resto del turno está de tu mano, ya has planteado y pensado en lo relevante. Para un mazo en específico, esta lista puede ser más larga y específica. Lo importante es centrarte en tener el orden correcto.</li>
+</ol>
+
+<h5 id="final-de-partida">Final de partida</h5>
+
+<ol>
+<li>¿Está alguien planteando un clock (número de turnos en los que va a ganar)?</li>
+<li>¿Puedes tú proponer un clock más rápido? Es el momento correcto?</li>
+<li>¿Puedes ralentizar el clock del oponente?</li>
+<li>¿Hay alguna carta que pueda cambiar la situación?</li>
+<li>Si vas ganando ¿qué te hace perder la partida? Puedes jugar alrededor de ello? hazlo si es posible.</li>
+<li>Si vas perdiendo, ya estás perdiendo, es el momento de tomar riesgos.</li>
+</ol>
+
+<h4 id="su-turno">Su turno</h4>
+
+<ol>
+<li>Repítete tu plan actual de partida y en qué punto te encuentras.</li>
+<li>Hay algún trigger que tengas que tener en cuenta en su turno?</li>
+<li>Durante el testeo, escribe la tinta de su turno, dila en alto, dale énfasis a las cartas importantes. En un torneo real no puedes escribir lo que entinta tu rival, pero esto nos ayudará a pensar en esa carta durante un segundo, y si más adelante necesitamos acordarnos, puede ser más fácil hacerlo. Al menos, en mi caso en el que me distraigo muchísimo, si consigo generar el hábito, voy a poder tener en cuenta esas cositas que pueden marcar diferencia.</li>
+<li>Vuelta a tu turno.</li>
+</ol>
+
+<p>Este sería un plan genérico de secuenciado de turno. Puedes hacer el tuyo propio para el mazo que estás jugando principalmente. Aquí dejo un ejemplo del plan que me hice yo para jugar el mazo Ambar Esmeralda de perritos en Ghent.</p>
+
+<h3 id="secuenciado-de-turnos-para-perritos-set-11">Secuenciado de turnos para perritos, Set 11</h3>
+
+<h4 id="ready">Ready</h4>
+
+<h4 id="set">Set</h4>
+
+<ol>
+<li><strong>¿Puedo jugar Lilo desde el descarte?</strong>: ¿Cómo afecta eso a mi economía de tintas? ¿Previene de alguna manera la posibilidad de jugar doble Tramp7? ¿Habilita el &ldquo;Cheshire Cat&rdquo; del oponente? ¿Puedo utilizarlo para forzar tradeos a mi favor?</li>
+</ol>
+
+<h4 id="draw">Draw</h4>
+
+<ol>
+<li>¿En qué fase me encuentro actualmente? Estableciendo cantantes de 8, Cantantes de 8 establecidos, pelea midrange, clock&hellip;</li>
+<li>¿Debería de jugar alrededor de alguna carta? Demona, Elsa&hellip;</li>
+<li>¿Tengo la posibilidad de jugar Lady5? Revisar el descarte para ver cartas que puedan cambiar mi turno.</li>
+</ol>
+
+<h4 id="planeando-uts">Planeando UTS</h4>
+
+<ol>
+<li>¿Si tengo cantantes de 8 en mesa, cual es la mejor manera de ejecutar el plan? ¿realmente necesito cantar UTS ahora mismo? ¿es este el último turno en el que puedo hacer el combo?&hellip;</li>
+<li>¿Tengo aun que buscar el combo? ¿tengo disponible algún lullaby? ¿tengo cantantes de sobra para usar un lullaby antes de Tramp7? ¿Me pone en un compromiso cantar lullaby si luego no encuentro el UTS?</li>
+<li>Si estoy planeando cantarlo con Lady5 ¿hay alguna manera de poner un Rhino en el descarte para jugarlo?</li>
+<li>¿Tengo economía de mano suficiente para jugar Bobby? Es decir ¿puedo jugar dos Tramp7 seguidos y seguír haciendo el combo?</li>
+</ol>
+
+<h4 id="resto-del-turno-a-mitad-de-partida">Resto del turno a mitad de partida</h4>
+
+<ol>
+<li>Antes de lorear ¿qué cartas pueden afectar mis cantantes de 8 en mesa el siguiente turno? ¿cuantas amenazas pueden eliminarme? ¿cuál es el peor de los casos? Si seguimos en el plan de UTS ¿cómo afecta esto a nuestra capacidad de hacer el combo?</li>
+<li>Contar Fuerza vs Vitalidad de las cartas de tu oponente.</li>
+</ol>
+
+<h4 id="plan-de-inicio-de-partida">Plan de inicio de partida</h4>
+
+<ol>
+<li>Planear subconjuntos de cartas que podemos jugar en cada turno con la mano actual.</li>
+<li>Plan de tintado.</li>
+<li>Plan de cantantes de 8. Which is the best way I can keep planting Singer8 threat before Tramp7</li>
+<li>If we played willow and have Lady shift, can we Tramp7 to put stuff in the discard?</li>
+<li>Does the Tramp7 change our mind about playing shift Lady?</li>
+</ol>
+
+<h4 id="endgame-clock">Endgame Clock</h4>
+
+<ol>
+<li>Do I have a clock? Do they have a clock? How many turns of clock?</li>
+<li>If they put you in a clock, can you beat it somehow?</li>
+<li>Does your only wincon involve Singing UTS? If so, you may not want to quest and risk it.</li>
+<li>Count Willpower vs Strength.</li>
+<li>Losing 20-0 is exactly the same as losing 20-19</li>
+</ol>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>You get the idea, you have a structure to your turn, you question yourself and you make decisions later. It&rsquo;s nothing new. You can update your plan the more you learn about the game and/or deck. I will try to keep this updated with my new processes or examples with decks I work on.</p>
+
+<p>Thanks for reading this article, hope you find it helpful. See you in table 1.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://eli-rodriguez.com/tags/lorcana">lorcana</a></span><span class="tag"><a href="https://eli-rodriguez.com/tags/riftbound">riftbound</a></span><span class="tag"><a href="https://eli-rodriguez.com/tags/magic">magic</a></span><span class="tag"><a href="https://eli-rodriguez.com/tags/game-theory">game theory</a></span><span class="tag"><a href="https://eli-rodriguez.com/tags/tcg">tcg</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1667 Palabras</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-07-16 18:34</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://eli-rodriguez.com/posts/usando-un-teclado-todav%C3%ADa-m%C3%A1s-peque%C3%B1ito/">
+                                <span class="button__text">Usando un teclado todavía más pequeñito</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            
+                <span><a href="https://eli-rodriguez.com/">Eli Rodríguez Pérez</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://eli-rodriguez.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://eli-rodriguez.com/bundle.min.9e52e68b082cf2a30a7fead88260edb8818fbd7f7831e39674917d4539ec75df41ba88eaddfbd916594ab4fb2a31913b46cf2d6094cf80381edb8c632512a8ca.js" integrity="sha512-nlLmiwgs8qMKf&#43;rYgmDtuIGPvX94MeOWdJF9RTnsdd9Buojq3fvZFllKtPsqMZE7Rs8tYJTPgDge24xjJRKoyg=="></script>
+
+
+
+    </body>
+</html>

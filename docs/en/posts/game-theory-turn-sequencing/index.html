@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Eli Rodríguez Pérez ">
+<meta name="description"
+    content="Turn Sequencing essentially refers to the way you structure your turns. It&amp;rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.
+Time Management is a fundamental skill in any game." />
+<meta name="keywords" content="programming vim emacs lgbt trans programación lgtb" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/" />
+
+
+<title>
+    
+    Game Theory Turn Sequencing :: Eli Rodríguez Pérez  — Personal blog
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://eli-rodriguez.com/main.min.476fa624d215b87a3d209acf74fe1053f07b62ca430ee3fbaa46e41f075708e5.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="https://eli-rodriguez.com/css/main.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://eli-rodriguez.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eli-rodriguez.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eli-rodriguez.com/favicon-16x16.png">
+<link rel="manifest" href="https://eli-rodriguez.com/site.webmanifest">
+<link rel="mask-icon" href="https://eli-rodriguez.com/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://eli-rodriguez.com/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="Game Theory Turn Sequencing">
+<meta itemprop="description" content="Turn Sequencing essentially refers to the way you structure your turns. It&rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.
+Time Management is a fundamental skill in any game.">
+
+
+<meta itemprop="datePublished" content="2026-07-16T18:34:04&#43;02:00" />
+<meta itemprop="dateModified" content="2026-07-16T18:34:04&#43;02:00" />
+<meta itemprop="wordCount" content="1436">
+
+
+
+<meta itemprop="keywords" content="lorcana,riftbound,magic,game theory,tcg," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://eli-rodriguez.com/static/img/eli-portrait-2025.png"/>
+
+<meta name="twitter:title" content="Game Theory Turn Sequencing"/>
+<meta name="twitter:description" content="Turn Sequencing essentially refers to the way you structure your turns. It&rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.
+Time Management is a fundamental skill in any game."/>
+
+
+
+
+<meta property="article:published_time" content="2026-07-16 18:34:04 &#43;0200 CEST" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://eli-rodriguez.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">/home/eli</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://eli-rodriguez.com/en/about/">About me</a></li><li><a href="https://eli-rodriguez.com/en/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>7 minutes
+
+            
+                | Also available in
+                
+                    <a href="https://eli-rodriguez.com/posts/secuenciando-tu-turno/"><span class="flag flag-icon flag-icon-es flag-icon-squared"></span></a>
+                
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/">Game Theory Turn Sequencing</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<p>Turn Sequencing essentially refers to the way you structure your turns. It&rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.</p>
+
+<p>Time Management is a fundamental skill in any game. Applied to card games, we find ourselves playing set of games that take approximately an hour. During that time, we have to squeeze in a maximum of 3 games that require both players to use their time efficiently. There is a lot more to it that should probably be covered in another post. For now, let&rsquo;s just say that improving your turn sequencing leads to making better decisions in the same amount of time you took before. This results in less draws, preventing unwanted losses out of rushing to finish a game or even forgetting to think about core strategic decisions that could lead to a loss with a faster deck.</p>
+
+<h3 id="building-a-turn-sequencing-plan">Building a turn sequencing plan</h3>
+
+<p>A turn sequencing plan can help you apply the knowledge you already have in a structured way during your games. If you struggle to maintain focus during tournaments it&rsquo;s good to internalize the flow of the turn. It&rsquo;s not intended to contain information about how you should play, just questions that are helpful to pilot the deck in different situations, so you always have a way to get back into the game if you ever get distracted.</p>
+
+<h4 id="alter">Alter</h4>
+
+<p>Before:</p>
+
+<ul>
+<li>Am I OTD or OTP?</li>
+<li>What is your opponent playing? What will they try to do during the game?</li>
+<li>What are your key cards for the matchup?</li>
+<li>Do I have to aggressively alter?</li>
+</ul>
+
+<p>After:</p>
+
+<ul>
+<li>What&rsquo;s your opening strategy?</li>
+<li>Build subsets of cards you&rsquo;re going to ink and play.</li>
+</ul>
+
+<h4 id="your-turn">Your turn</h4>
+
+<ol>
+<li>Ready</li>
+<li>Set: There are decks that require you to move your turn planning process here. Try to build the habit. Remember that in tournaments you can put a token on top of your deck to not forget what you have to do before drawing. It can&rsquo;t be a dice.</li>
+<li>Draw</li>
+</ol>
+
+<p>At this point, your turn has started, it&rsquo;s good to build the habit of having a thought process here. Some things will have to change during the game, as you&rsquo;re normally required to think about different things during opening, midgame and endgame.</p>
+
+<h5 id="assessing-the-state-of-the-game">Assessing the state of the game</h5>
+
+<p>Here, you should try to detect which of the phases of the game you are in. Not only if your in opening, midgame, endgame but also any sub-phases a game plan should have. This can help filter out questions that don&rsquo;t apply currently and focus on the ones that really matter.</p>
+
+<ol>
+<li>Which of the phases are you in?</li>
+<li>Do you have the tempo?</li>
+<li>Are you in the middle of executing a previous plan?</li>
+</ol>
+
+<h5 id="opening-phase">Opening phase</h5>
+
+<ul>
+<li>What&rsquo;s your current opening strategy?</li>
+<li>How can you ink correctly so that I can keep executing your opening strategy?</li>
+<li>How is your opponent&rsquo;s opening strategy going?</li>
+<li>Do you have to shift to a different opening strategy?</li>
+</ul>
+
+<h5 id="midgame-turn-planning">Midgame Turn Planning</h5>
+
+<p>Before making any kind of decision, put your cards away and think. Nothing is obvious and everything should be considered. Sometimes, we internalize &ldquo;obvious&rdquo; plays that situationally are bad, or can make us unable to do other important things that are necessary in order to win the game.</p>
+
+<p>Think about how each plan affects the future turns, yours and theirs. For example:</p>
+
+<ol>
+<li>Think about what your opponent might be doing next turn.</li>
+<li>Do you have to play around something? Can you afford to play around it? Are you still able to win the game if you play around it?</li>
+<li>Play main lines in your head. Think them through.</li>
+<li>If any lines involve hidden information like cards in your deck, think about odds. Does seeing any specific card change your turn?</li>
+<li>Make an informed decision, not an intuitive one if possible.</li>
+<li>Put ink aside if needed, you don&rsquo;t want to mistakenly use ink that you need to stay in the game. This does not need to give information if you do it constantly and you can do it for cards that you don&rsquo;t have to trick your opponent.</li>
+</ol>
+
+<h5 id="turn-execution">Turn execution</h5>
+
+<ol>
+<li>Rule out uncertainty first. Sequencing is really important. Draw your cards first, Force opponent to reveal information first (think &ldquo;Emerald Chromicon&rdquo;/&ldquo;Be king undisputed&rdquo;). Some information can be inferred because there is only one optimal play (Be King Undisputed against a Tipo and a Milo Thatch). You should always assume optimal plays and only ignore them if you can&rsquo;t afford to play around them.</li>
+<li>Once uncertainty is removed, check if your plan changes. Reevaluate. The rest of the turn should go as planned. For specific decks, this list can be bigger and include niche interactions that apply.</li>
+</ol>
+
+<h5 id="endgame">Endgame</h5>
+
+<ol>
+<li>Is any player threatening a clock?</li>
+<li>Can you propose a faster clock? Is it worth it?</li>
+<li>Can you slow down your opponents clock?</li>
+<li>Is there any card that changes the situation?</li>
+<li>If you&rsquo;re winning, what do you definitely lose to? Can you afford to play around it? If so, do it.</li>
+<li>If you&rsquo;re losing, you&rsquo;re already losing, this is the moment to make high reward risky plays.</li>
+</ol>
+
+<h4 id="their-turn">Their turn</h4>
+
+<ol>
+<li>Repeat your current game plan to yourself and in which point of it are you in.</li>
+<li>Is there any triggers you should be aware of?</li>
+<li>During testing, write their ink for the turn. You can&rsquo;t do this in a real tournament, but we&rsquo;re trying to build the habit of paying attention to the cards your opponent is unable to use anymore. If you prefer, just say it out loud. Emphasise the card if you think it&rsquo;s important for the matchup.</li>
+<li>Back to your turn</li>
+</ol>
+
+<p>This is a generic game plan sequencing chart. But you should probably develop your own for each deck you&rsquo;re trying to master. Here&rsquo;s an example of one I built for dogs in preparation for Ghent.</p>
+
+<h3 id="turn-sequencing-for-dogs-set-11">Turn Sequencing for Dogs Set 11</h3>
+
+<h4 id="ready">Ready</h4>
+
+<h4 id="set">Set</h4>
+
+<ol>
+<li><strong>Can I bring back Lilo?</strong>: How does it affect my ink economy? Does it prevent me from playing double Tramp? Does it enable a free Cheshire Cat banish? Can I use it to force value trades in our favour?</li>
+</ol>
+
+<h4 id="draw">Draw</h4>
+
+<ol>
+<li>Which of the phases am I in? Setup, Singer8 stablished, Stabilised, Midrange battle, Clock.</li>
+<li>Should I play around any cards? Demona, Elsa&hellip;</li>
+<li>Do I have a shift Lady? Look at discard for cards that could change my turn</li>
+</ol>
+
+<h4 id="uts-planning">UTS Planning</h4>
+
+<ol>
+<li>If I have Singer8 on board what is the best way to execute it? Do I really need to combo right now? Is this the last turn where I can combo?</li>
+<li>Do I have to look for the combo? Do I already have a lullaby? Do I have singer surplus to sing a lullaby? Does singing it before tramp put me at a compromise if I don&rsquo;t find it?</li>
+<li>If I&rsquo;m planning to sing it with Shift Lady is there a way to put a rhino in the discard and play it?</li>
+<li>Do I have the Hand economy for Bobby? Can I play two Tramps and keep the Combo?</li>
+</ol>
+
+<h4 id="rest-of-turn-sequence-midgame">Rest of turn sequence Midgame</h4>
+
+<ol>
+<li>Before questing, which cards can affect my Singer8 next turn? How many threats can they take? What&rsquo;s the worst case scenario? If we&rsquo;re on the pre UTS plan quest only if it never affects our capacity to combo.</li>
+<li>Count Willpower vs Strength.</li>
+</ol>
+
+<h4 id="early-game-setup">Early game setup</h4>
+
+<ol>
+<li>Plan the subsets of cards we can play each turn with our hand.</li>
+<li>Ink planning</li>
+<li>Singer8 planning. Which is the best way I can keep planting Singer8 threat before Tramp7</li>
+<li>If we played willow and have Lady shift, can we Tramp7 to put stuff in the discard?</li>
+<li>Does the Tramp7 change our mind about playing shift Lady?</li>
+</ol>
+
+<h4 id="endgame-clock">Endgame Clock</h4>
+
+<ol>
+<li>Do I have a clock? Do they have a clock? How many turns of clock?</li>
+<li>If they put you in a clock, can you beat it somehow?</li>
+<li>Does your only wincon involve Singing UTS? If so, you may not want to quest and risk it.</li>
+<li>Count Willpower vs Strength.</li>
+<li>Losing 20-0 is exactly the same as losing 20-19</li>
+</ol>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>You get the idea, you have a structure to your turn, you question yourself and you make decisions later. It&rsquo;s nothing new. You can update your plan the more you learn about the game and/or deck. I will try to keep this updated with my new processes or examples with decks I work on.</p>
+
+<p>Thanks for reading this article, hope you find it helpful.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://eli-rodriguez.com/en/tags/lorcana">lorcana</a></span><span class="tag"><a href="https://eli-rodriguez.com/en/tags/riftbound">riftbound</a></span><span class="tag"><a href="https://eli-rodriguez.com/en/tags/magic">magic</a></span><span class="tag"><a href="https://eli-rodriguez.com/en/tags/game-theory">game theory</a></span><span class="tag"><a href="https://eli-rodriguez.com/en/tags/tcg">tcg</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1436 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-07-16 18:34</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://eli-rodriguez.com/en/posts/data-and-conclusions-on-green-blue-decision-making/">
+                                <span class="button__text">Data and conclusions on Green Blue decision making</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            
+                <span><a href="https://eli-rodriguez.com/">Eli Rodríguez Pérez</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://eli-rodriguez.com/en/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://eli-rodriguez.com/bundle.min.9e52e68b082cf2a30a7fead88260edb8818fbd7f7831e39674917d4539ec75df41ba88eaddfbd916594ab4fb2a31913b46cf2d6094cf80381edb8c632512a8ca.js" integrity="sha512-nlLmiwgs8qMKf&#43;rYgmDtuIGPvX94MeOWdJF9RTnsdd9Buojq3fvZFllKtPsqMZE7Rs8tYJTPgDge24xjJRKoyg=="></script>
+
+
+
+    </body>
+</html>

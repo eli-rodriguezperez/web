@@ -5,8 +5,179 @@
         <description>Recent content in Posts on Eli Rodríguez Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 06 Oct 2025 12:25:13 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 18:34:04 +0200</lastBuildDate>
         <atom:link href="https://eli-rodriguez.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Game Theory Turn Sequencing</title>
+            <link>https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/</link>
+            <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+            
+            <guid>https://eli-rodriguez.com/en/posts/game-theory-turn-sequencing/</guid>
+            <description>Turn Sequencing essentially refers to the way you structure your turns. It&amp;rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.
+Time Management is a fundamental skill in any game.</description>
+            <content type="html"><![CDATA[
+
+<p>Turn Sequencing essentially refers to the way you structure your turns. It&rsquo;s something that not everybody thinks about. To me, as a person that tends to get distracted a lot and lose focus in game, specially at tournaments, having a structured way to think about your turn makes it easier to find your way back to the game and reduce the amount of mistakes caused by distraction.</p>
+
+<p>Time Management is a fundamental skill in any game. Applied to card games, we find ourselves playing set of games that take approximately an hour. During that time, we have to squeeze in a maximum of 3 games that require both players to use their time efficiently. There is a lot more to it that should probably be covered in another post. For now, let&rsquo;s just say that improving your turn sequencing leads to making better decisions in the same amount of time you took before. This results in less draws, preventing unwanted losses out of rushing to finish a game or even forgetting to think about core strategic decisions that could lead to a loss with a faster deck.</p>
+
+<h3 id="building-a-turn-sequencing-plan">Building a turn sequencing plan</h3>
+
+<p>A turn sequencing plan can help you apply the knowledge you already have in a structured way during your games. If you struggle to maintain focus during tournaments it&rsquo;s good to internalize the flow of the turn. It&rsquo;s not intended to contain information about how you should play, just questions that are helpful to pilot the deck in different situations, so you always have a way to get back into the game if you ever get distracted.</p>
+
+<h4 id="alter">Alter</h4>
+
+<p>Before:</p>
+
+<ul>
+<li>Am I OTD or OTP?</li>
+<li>What is your opponent playing? What will they try to do during the game?</li>
+<li>What are your key cards for the matchup?</li>
+<li>Do I have to aggressively alter?</li>
+</ul>
+
+<p>After:</p>
+
+<ul>
+<li>What&rsquo;s your opening strategy?</li>
+<li>Build subsets of cards you&rsquo;re going to ink and play.</li>
+</ul>
+
+<h4 id="your-turn">Your turn</h4>
+
+<ol>
+<li>Ready</li>
+<li>Set: There are decks that require you to move your turn planning process here. Try to build the habit. Remember that in tournaments you can put a token on top of your deck to not forget what you have to do before drawing. It can&rsquo;t be a dice.</li>
+<li>Draw</li>
+</ol>
+
+<p>At this point, your turn has started, it&rsquo;s good to build the habit of having a thought process here. Some things will have to change during the game, as you&rsquo;re normally required to think about different things during opening, midgame and endgame.</p>
+
+<h5 id="assessing-the-state-of-the-game">Assessing the state of the game</h5>
+
+<p>Here, you should try to detect which of the phases of the game you are in. Not only if your in opening, midgame, endgame but also any sub-phases a game plan should have. This can help filter out questions that don&rsquo;t apply currently and focus on the ones that really matter.</p>
+
+<ol>
+<li>Which of the phases are you in?</li>
+<li>Do you have the tempo?</li>
+<li>Are you in the middle of executing a previous plan?</li>
+</ol>
+
+<h5 id="opening-phase">Opening phase</h5>
+
+<ul>
+<li>What&rsquo;s your current opening strategy?</li>
+<li>How can you ink correctly so that I can keep executing your opening strategy?</li>
+<li>How is your opponent&rsquo;s opening strategy going?</li>
+<li>Do you have to shift to a different opening strategy?</li>
+</ul>
+
+<h5 id="midgame-turn-planning">Midgame Turn Planning</h5>
+
+<p>Before making any kind of decision, put your cards away and think. Nothing is obvious and everything should be considered. Sometimes, we internalize &ldquo;obvious&rdquo; plays that situationally are bad, or can make us unable to do other important things that are necessary in order to win the game.</p>
+
+<p>Think about how each plan affects the future turns, yours and theirs. For example:</p>
+
+<ol>
+<li>Think about what your opponent might be doing next turn.</li>
+<li>Do you have to play around something? Can you afford to play around it? Are you still able to win the game if you play around it?</li>
+<li>Play main lines in your head. Think them through.</li>
+<li>If any lines involve hidden information like cards in your deck, think about odds. Does seeing any specific card change your turn?</li>
+<li>Make an informed decision, not an intuitive one if possible.</li>
+<li>Put ink aside if needed, you don&rsquo;t want to mistakenly use ink that you need to stay in the game. This does not need to give information if you do it constantly and you can do it for cards that you don&rsquo;t have to trick your opponent.</li>
+</ol>
+
+<h5 id="turn-execution">Turn execution</h5>
+
+<ol>
+<li>Rule out uncertainty first. Sequencing is really important. Draw your cards first, Force opponent to reveal information first (think &ldquo;Emerald Chromicon&rdquo;/&ldquo;Be king undisputed&rdquo;). Some information can be inferred because there is only one optimal play (Be King Undisputed against a Tipo and a Milo Thatch). You should always assume optimal plays and only ignore them if you can&rsquo;t afford to play around them.</li>
+<li>Once uncertainty is removed, check if your plan changes. Reevaluate. The rest of the turn should go as planned. For specific decks, this list can be bigger and include niche interactions that apply.</li>
+</ol>
+
+<h5 id="endgame">Endgame</h5>
+
+<ol>
+<li>Is any player threatening a clock?</li>
+<li>Can you propose a faster clock? Is it worth it?</li>
+<li>Can you slow down your opponents clock?</li>
+<li>Is there any card that changes the situation?</li>
+<li>If you&rsquo;re winning, what do you definitely lose to? Can you afford to play around it? If so, do it.</li>
+<li>If you&rsquo;re losing, you&rsquo;re already losing, this is the moment to make high reward risky plays.</li>
+</ol>
+
+<h4 id="their-turn">Their turn</h4>
+
+<ol>
+<li>Repeat your current game plan to yourself and in which point of it are you in.</li>
+<li>Is there any triggers you should be aware of?</li>
+<li>During testing, write their ink for the turn. You can&rsquo;t do this in a real tournament, but we&rsquo;re trying to build the habit of paying attention to the cards your opponent is unable to use anymore. If you prefer, just say it out loud. Emphasise the card if you think it&rsquo;s important for the matchup.</li>
+<li>Back to your turn</li>
+</ol>
+
+<p>This is a generic game plan sequencing chart. But you should probably develop your own for each deck you&rsquo;re trying to master. Here&rsquo;s an example of one I built for dogs in preparation for Ghent.</p>
+
+<h3 id="turn-sequencing-for-dogs-set-11">Turn Sequencing for Dogs Set 11</h3>
+
+<h4 id="ready">Ready</h4>
+
+<h4 id="set">Set</h4>
+
+<ol>
+<li><strong>Can I bring back Lilo?</strong>: How does it affect my ink economy? Does it prevent me from playing double Tramp? Does it enable a free Cheshire Cat banish? Can I use it to force value trades in our favour?</li>
+</ol>
+
+<h4 id="draw">Draw</h4>
+
+<ol>
+<li>Which of the phases am I in? Setup, Singer8 stablished, Stabilised, Midrange battle, Clock.</li>
+<li>Should I play around any cards? Demona, Elsa&hellip;</li>
+<li>Do I have a shift Lady? Look at discard for cards that could change my turn</li>
+</ol>
+
+<h4 id="uts-planning">UTS Planning</h4>
+
+<ol>
+<li>If I have Singer8 on board what is the best way to execute it? Do I really need to combo right now? Is this the last turn where I can combo?</li>
+<li>Do I have to look for the combo? Do I already have a lullaby? Do I have singer surplus to sing a lullaby? Does singing it before tramp put me at a compromise if I don&rsquo;t find it?</li>
+<li>If I&rsquo;m planning to sing it with Shift Lady is there a way to put a rhino in the discard and play it?</li>
+<li>Do I have the Hand economy for Bobby? Can I play two Tramps and keep the Combo?</li>
+</ol>
+
+<h4 id="rest-of-turn-sequence-midgame">Rest of turn sequence Midgame</h4>
+
+<ol>
+<li>Before questing, which cards can affect my Singer8 next turn? How many threats can they take? What&rsquo;s the worst case scenario? If we&rsquo;re on the pre UTS plan quest only if it never affects our capacity to combo.</li>
+<li>Count Willpower vs Strength.</li>
+</ol>
+
+<h4 id="early-game-setup">Early game setup</h4>
+
+<ol>
+<li>Plan the subsets of cards we can play each turn with our hand.</li>
+<li>Ink planning</li>
+<li>Singer8 planning. Which is the best way I can keep planting Singer8 threat before Tramp7</li>
+<li>If we played willow and have Lady shift, can we Tramp7 to put stuff in the discard?</li>
+<li>Does the Tramp7 change our mind about playing shift Lady?</li>
+</ol>
+
+<h4 id="endgame-clock">Endgame Clock</h4>
+
+<ol>
+<li>Do I have a clock? Do they have a clock? How many turns of clock?</li>
+<li>If they put you in a clock, can you beat it somehow?</li>
+<li>Does your only wincon involve Singing UTS? If so, you may not want to quest and risk it.</li>
+<li>Count Willpower vs Strength.</li>
+<li>Losing 20-0 is exactly the same as losing 20-19</li>
+</ol>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>You get the idea, you have a structure to your turn, you question yourself and you make decisions later. It&rsquo;s nothing new. You can update your plan the more you learn about the game and/or deck. I will try to keep this updated with my new processes or examples with decks I work on.</p>
+
+<p>Thanks for reading this article, hope you find it helpful.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Data and conclusions on Green Blue decision making</title>

@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Eli Rodríguez Pérez</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 06 Oct 2025 12:25:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 18:34:04 +0200</lastBuildDate>
     
 	<atom:link href="https://eli-rodriguez.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>game theory</title>
+      <link>https://eli-rodriguez.com/en/tags/game-theory/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/tags/game-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lorcana</title>
+      <link>https://eli-rodriguez.com/en/tags/lorcana/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/tags/lorcana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magic</title>
+      <link>https://eli-rodriguez.com/en/tags/magic/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/tags/magic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>riftbound</title>
+      <link>https://eli-rodriguez.com/en/tags/riftbound/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/tags/riftbound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tcg</title>
+      <link>https://eli-rodriguez.com/en/tags/tcg/</link>
+      <pubDate>Thu, 16 Jul 2026 18:34:04 +0200</pubDate>
+      
+      <guid>https://eli-rodriguez.com/en/tags/tcg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GB</title>
@@ -26,15 +71,6 @@
       <pubDate>Mon, 06 Oct 2025 12:25:13 +0000</pubDate>
       
       <guid>https://eli-rodriguez.com/en/tags/green-blue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lorcana</title>
-      <link>https://eli-rodriguez.com/en/tags/lorcana/</link>
-      <pubDate>Mon, 06 Oct 2025 12:25:13 +0000</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/tags/lorcana/</guid>
       <description></description>
     </item>
     
@@ -62,33 +98,6 @@
       <pubDate>Sun, 29 Sep 2019 15:40:00 +0200</pubDate>
       
       <guid>https://eli-rodriguez.com/en/tags/keyboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ortholinear</title>
-      <link>https://eli-rodriguez.com/en/tags/ortholinear/</link>
-      <pubDate>Sun, 29 Sep 2019 15:40:00 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/tags/ortholinear/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://eli-rodriguez.com/en/tags/vim/</link>
-      <pubDate>Sun, 29 Sep 2019 15:40:00 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://eli-rodriguez.com/en/tags/emacs/</link>
-      <pubDate>Sun, 26 May 2019 15:29:34 +0200</pubDate>
-      
-      <guid>https://eli-rodriguez.com/en/tags/emacs/</guid>
       <description></description>
     </item>
     
