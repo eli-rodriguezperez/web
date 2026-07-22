@@ -12,44 +12,45 @@ tags:
   - tcg
 ---
 
-El secuenciado de turno es simplemente cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena manera de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque teniendo un sistema es difícil de aplicarlo correctamente.
+El secuenciado de turno significa, simplemente, cómo estructuramos los turnos. Es algo en lo que no todo el mundo se fija, así que pensar en cómo podemos mejorarlo es una buena forma de mejorar nuestra manera de jugar. Yo suelo distraerme bastante, especialmente durante torneos largos, así que tener una manera más estructurada de pensar en los turnos me ayuda a volver a la partida cuando estoy distraida. Aunque aun sabiéndose la teoría, es muy difícil ponerla en práctica.
 
-La gestión del tiempo es una de las habilidades fundamentales que aplican a muchísimos juegos. Aplicado a los juegos de cartas, solemos jugar partidas de alrededor de una hora. En ese tiempo, tenemos que ser capaces de jugar hasta un máximo de 3 partidas, que requieren que ambos jugadores utilicen su tiempo de manera eficiente. Hay muchísimas cosas de las que podemos hablar sobre todo lo que conlleva la gestión del tiempo, pero vamos a dejarlo para otro artículo. De momento, vamos a decir que mejorar el secuenciado de nuestro turno nos puede llevar a tomar mejores decisiones en la misma cantidad de tiempo que utilizabamos antes. Esto puede ayudarnos a empatar menos por tiempo, prevenir derrotas por ir demasiado rápido u olvidarnos de ejecutar correctamente decisiones estratégicas del mazo.
+La gestión del tiempo es una habilidad fundamental que es relevante en muchísimos juegos de estrategia. Aplicado a juegos de cartas, donde solemos jugar partidas de alrededor de una hora, es crítico tener una gestión del tiempo impecable. En ese tiempo, tenemos que ser capaces de jugar hasta un máximo de 3 partidas, que requieren que ambos jugadores utilicen su tiempo de manera eficiente. La gestión del tiempo es un tema que puede dar mucho que hablar, de momento, vamos a dejarlo de lado para centrarnos en el secuenciado de turno. Se podría decir que mejorar el secuenciado de nuestro turno nos puede llevar a tomar mejores decisiones utilizando el menor tiempo posible. Esto puede ayudarnos a empatar menos por tiempo, prevenir derrotas por ir demasiado rápido u olvidarnos de ejecutar correctamente decisiones estratégicas del mazo.
 
 ### Desarrollando un plan de secuenciado de turno
-Un plan de secuenciado de turno nos puede ayudar a aplicar el conocimiento que tenemos del juego de una manera más estructurada. Si como yo, te cuesta mantener la concentración durante torneos es buena idea internalizar el proceso de planteamiento de los turnos. La idea no es que contenga información de cómo jugar en sí, si no preguntas que nos van a guiar a llegar a las soluciones correctas en un orden más óptimo. También viene muy bien para volver a esas partidas en las que te distraes y no sabes cómo volver.
+Un plan de secuenciado de turno nos puede ayudar a aplicar, de una manera más estructurada, el conocimiento que ya tenemos del juego. Si, como yo, te cuesta mantener la concentración durante los torneos, es buena idea interiorizar ese proceso de pensamiento que hacemos cada turno. La idea no es que este contenga información de cómo jugar en sí, si no preguntas que nos van a guiar, cada turno, por los procesos de pensamiento relevantes según el estado del juego. También viene muy bien para encontrar el camino de vuelta en esas partidas en las que te distraes y no sabes cómo empezar a pensar.
 
 #### Alter
 Antes:
 
 - Estoy OTP u OTD?
-- Qué está jugando tu oponente? Cuál es su plan de partida contra ti?
-- Cuales son las cartas clave para el matchup?
-- Tienes que hacer un alter agresivo?
+- ¿Qué está jugando tu oponente? ¿Cuál es su plan de partida contra ti?
+- ¿Cuales son las cartas clave para el matchup?
+- ¿Tienes que hacer un alter agresivo?
 
 Después:
 
-- Cuál es tu estrategia de partida?
-- Piensa en subconjuntos de cartas que vas a tintar y jugar cada turno.
+- ¿Cuál es tu estrategia de partida?
+- Piensa en subconjuntos de cartas que vas a tintar y jugar cada turno. Agrupa en tu cabeza qué distintas posibilidades tienes para jugar, en tus próximos turnos, las cartas que tienes en mano.
 
 #### Tu turno
 1. Ready
 2. Set: Hay mazos que requieren que muevas el planteamiento de tu turno aquí. Intenta generar el hábito durante el testeo. Recuerda que en torneos puedes poner un token encima del mazo para acordarte de pensar antes de robar. No pueden ser dados.
 3. Draw
 
-En este punto tu turno ya ha empezado, es buena idea generar el hábito de pensar aquí. Algunos planteamientos y preguntas cambiarán a lo largo de la partida, ya que normalmente tienes que pensar en cosas diferentes durante la apertura, mitad de partida y final de partida.
+En este punto tu turno ya ha empezado, es buena idea generar el hábito de pensar aquí. Algunos planteamientos y preguntas cambiarán a lo largo de la partida, ya que en cada fase de la partida vas a tener que plantear cosas totalmente diferentes.
 
 ##### Entendiendo el estado de la partida
 Aquí es importante detectar cuál es el estado actual de la partida. No solamente si estás en apertura, mitad de partida o final de partida si no diferentes subplanes que el mazo pueda tener. Esto nos puede ayudar a filtar cuestiones que no aplican actualmente y enfocarnos en las que realmente importan.
 
-1. En qué fase te encuentras?
-2. Tienes el control del tempo?
-3. Estas en medio de ejecutar algún plan?
+1. ¿En qué fase te encuentras? (apertura, mitad de partida y final de partida)
+2. ¿Tienes el control del tempo?
+3. ¿Te encuentras en medio de ejecutar algún plan?
 
 ##### Fase de apertura
-- Cuál es tu plan de apertura actual?
-- Cómo puedes tintar correctamente para poder seguir ejecutando tu plan de apertura?
-- Cuál es el plan de apertura de tu oponente?
+- ¿Cuál es tu plan de apertura actual?
+- ¿Cómo puedes tintar correctamente para poder seguir ejecutando tu plan de apertura?
+- Si piensas en tintar una carta ¿cómo afecta eso a tus futuros turnos?¿Puede esa decisión perseguirte en el futuro?
+- ¿Cuál es el plan de apertura de tu oponente?
 - Planteate si tienes que cambiar tu plan de apetura.
 
 ##### Planeando el turno a mitad de partida
@@ -58,28 +59,29 @@ Antes de tomar cualquier decisión, pon tus cartas a un lado y piensa. Nada es o
 Piensa en cómo cada jugada afecta tus turnos futuros y los del oponente. Por ejemplo:
 
 1. Piensa en lo que tu oponente puede hacer el siguiente turno.
-2. Es necesario que juegues alrededor de algo? Te lo puedes permitir? Eres capaz de ganar la partida después de jugar alrededor de esa carta o combo?
+2. ¿Es necesario que juegues alrededor de algo? ¿Te lo puedes permitir? ¿Eres capaz de ganar la partida después de jugar alrededor de esa carta o combo?
 3. Piensa en qué ocurriría si sigues diferentes lineas en profundidad.
-4. Si alguna linea requiere de información oculta como cartas en el mazo, piensa en las probabilidades. Si ves alguna carta específica cambia eso el planteamiento de tu turno?
+4. Si alguna linea contiene información oculta, como cartas en el mazo, piensa en las probabilidades. Algunos ejemplos pueden ser ¿Cuantas copias de esta carta me quedan en el mazo?,¿he mandado alguna al fondo del mazo en algún momento? Si ves alguna carta específica ¿cambia eso el planteamiento de tu turno?
 5. Toma una decisión informada, no intuitiva en la medida de lo posible.
-6. Deja a un lado tinta qu epuedas necesitar, si no quieres cometer el error de utilizar tinta que necesitabas para jugar un barremesa, removal... Esto no tiene por qué dar información extra si lo haces constantemente, incluso puedes llegar a utilizarlo a tu favor para engañar a tu oponente.
+6. Deja a un lado tinta que puedas necesitar, si no quieres cometer el error de utilizar tinta que necesitabas para jugar un barremesa, removal... Esto no tiene por qué dar información extra si lo haces constantemente, incluso puedes llegar a utilizarlo a tu favor para engañar a tu oponente.
 
 ##### Ejecutando el plan de turno
-1. Primero de todo tienes que descartar la incertidumbre. El secuenciado es muy importante en los juegos de cartas ya que todo pasa por tener la carta que necesitas en el momento correcto. Roba cartas, fuerza a tu oponente a revelar información relevante, por ejemplo un trigger de "Emerald Chromicon", esencialmente cualquier información que pueda requerir cambiar tu plan de turno o ajustarlo. El secuenciado es otro tema que da para un post larguísimo. Alguna información la podemos inferir ya que solo tiene una jugada óptima y aquí si podemos asumir, si tiramos "Be King Undisputed" a un Tipo y un Milo Thatch con ward que lorea de 3, pues en este caso no hay otra posibilidad. Antes he comentado que no debemos asumir nada, lo que sí tienes que asumir es que tu oponente va a jugar óptimamente y solo ignorarlo si no nos podemos permitir jugar alrededor de ello.
+
+1. Primero de todo tienes que descartar la incertidumbre: El secuenciado es muy importante en los juegos de cartas ya que todo pasa por tener la carta que necesitas en el momento correcto. Roba cartas, fuerza a tu oponente a revelar información relevante, por ejemplo un trigger de "Emerald Chromicon", esencialmente cualquier información que pueda requerir cambiar tu plan de turno o ajustarlo. Alguna información la podemos inferir ya que si solo existe una jugada óptima, sí que es correcto asumir, por ejemplo: si tiramos "Be King Undisputed" a un Tipo y un Milo Thatch con ward que lorea de 3, podemos asumir que la decisión va a ser siempre el tipo, a pesar de requerir de información oculta. Antes he comentado que no debemos asumir nada, lo que sí tienes que asumir es que tu oponente va a jugar óptimamente y solo ignorarlo si no nos podemos permitir jugar alrededor de ello.
 2. Una vez hemos descartado toda la incertidumbre, reevalua tu plan anterior y ajústalo. El resto del turno está de tu mano, ya has planteado y pensado en lo relevante. Para un mazo en específico, esta lista puede ser más larga y específica. Lo importante es centrarte en tener el orden correcto.
 
 ##### Final de partida
 1. ¿Está alguien planteando un clock (número de turnos en los que va a ganar)?
-2. ¿Puedes tú proponer un clock más rápido? Es el momento correcto?
+2. ¿Puedes tú proponer un clock más rápido? ¿es el momento de hacerlo?
 3. ¿Puedes ralentizar el clock del oponente?
 4. ¿Hay alguna carta que pueda cambiar la situación?
-5. Si vas ganando ¿qué te hace perder la partida? Puedes jugar alrededor de ello? hazlo si es posible.
+5. Si vas ganando ¿qué te hace perder la partida? ¿Puedes jugar alrededor de ello? hazlo si es posible.
 6. Si vas perdiendo, ya estás perdiendo, es el momento de tomar riesgos.
 
 #### Su turno
 1. Repítete tu plan actual de partida y en qué punto te encuentras.
-2. Hay algún trigger que tengas que tener en cuenta en su turno?
-3. Durante el testeo, escribe la tinta de su turno, dila en alto, dale énfasis a las cartas importantes. En un torneo real no puedes escribir lo que entinta tu rival, pero esto nos ayudará a pensar en esa carta durante un segundo, y si más adelante necesitamos acordarnos, puede ser más fácil hacerlo. Al menos, en mi caso en el que me distraigo muchísimo, si consigo generar el hábito, voy a poder tener en cuenta esas cositas que pueden marcar diferencia.
+2. ¿Hay algún trigger que tengas que tener en cuenta durante su turno?
+3. Durante el testeo, escribe la tinta de su turno, dila en alto, dale énfasis a las cartas importantes. En un torneo real no puedes escribir lo que entinta tu rival, pero esto nos ayudará a pensar en esa carta durante un segundo. Si más adelante necesitamos acordarnos, esto nos ayudará a hacerlo.
 4. Vuelta a tu turno.
 
 Este sería un plan genérico de secuenciado de turno. Puedes hacer el tuyo propio para el mazo que estás jugando principalmente. Aquí dejo un ejemplo del plan que me hice yo para jugar el mazo Ambar Esmeralda de perritos en Ghent.
@@ -98,8 +100,8 @@ Este sería un plan genérico de secuenciado de turno. Puedes hacer el tuyo prop
 
 #### Planeando UTS 
 
-1. ¿Si tengo cantantes de 8 en mesa, cual es la mejor manera de ejecutar el plan? ¿realmente necesito cantar UTS ahora mismo? ¿es este el último turno en el que puedo hacer el combo?...
-2. ¿Tengo aun que buscar el combo? ¿tengo disponible algún lullaby? ¿tengo cantantes de sobra para usar un lullaby antes de Tramp7? ¿Me pone en un compromiso cantar lullaby si luego no encuentro el UTS?
+1. Si tengo cantantes de 8 en mesa ¿cual es la mejor manera de ejecutar el plan? ¿realmente necesito cantar UTS ahora mismo? ¿es este el último turno en el que puedo hacer el combo?...
+2. ¿Tengo aun que buscar el combo? ¿tengo disponible algún "Della's Lullaby"? ¿tengo cantantes de sobra para usar un lullaby antes de Tramp7? ¿me pone en un compromiso cantar lullaby si luego no encuentro el UTS?
 3. Si estoy planeando cantarlo con Lady5 ¿hay alguna manera de poner un Rhino en el descarte para jugarlo?
 4. ¿Tengo economía de mano suficiente para jugar Bobby? Es decir ¿puedo jugar dos Tramp7 seguidos y seguír haciendo el combo?
 
